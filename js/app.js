@@ -17,24 +17,30 @@ $(document).ready(function() {
     var hash = new L.Hash(map);
 
     for (i = 0; i < routes.length; i++) {
-        var gpx = new L.GPX(routes[i].gpx, {
-            async: false,
-            marker_options: {
-                startIconUrl: null,
-                endIconUrl: null,
-                shadowUrl: null
-            },
-            polyline_options: {
-                color: 'red'
+        for (j = 0; j < routes[i].gpx.length; j++){
+            var gpx = new L.GPX(routes[i].gpx[j].source, {
+                async: false,
+                marker_options: {
+                    startIcon: L.AwesomeMarkers.icon({
+                        className: 'android-walk',
+                        prefix: 'ion'
+                    }),
+                    startIconUrl: null,
+                    endIconUrl: null,
+                    shadowUrl: null
+                },
+                polyline_options: {
+                    color: routes[i].color
+                }
+            });
+            var name = gpx.get_name();
+            var distance = (gpx.get_distance() / 1000).toFixed(2);
+            var content = "<strong>" + name + "</strong> (" + distance + " km)";
+            if (routes[i].hasOwnProperty('link')){
+                content = content + "<br/><a href='" + routes[i].gpx[j].link + "' target='new'>Ver historia</a>";
             }
-        });
-        var name = gpx.get_name();
-        var distance = (gpx.get_distance() / 1000).toFixed(2);
-        var content = "<strong>" + name + "</strong> (" + distance + " km)";
-        if (routes[i].hasOwnProperty('link')){
-            content = content + "<br/><a href='" + routes[i].link + "' target='new'>Ver historia</a>";
+            gpx.bindPopup(content).addTo(map);
         }
-        gpx.bindPopup(content).addTo(map);
     }
 
 });
