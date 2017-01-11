@@ -8,23 +8,41 @@ $(document).ready(function() {
         id: 'mapbox.outdoors'
     });
 
+    var centerMap = [40.428132, -3.686999];
+
     map = L.map('map', {
-        center: [40.428132, -3.686999],
+        center: centerMap,
         zoom: 3,
         layers: [outdoors]
     });
 
     var hash = new L.Hash(map);
 
+    //// Creates a red marker with the coffee icon
+    //var myIcon = new L.AwesomeMarkers.icon({
+    //    icon: 'coffee',
+    //    prefix: 'fa',
+    //    markerColor: 'blue',
+    //    iconColor: 'white'
+    //});
+    ////L.marker(centerMap, {icon: myIcon}).addTo(map);
+    //var gpx = new L.GPX(routes[0].gpx[0].source, {
+    //    async: false,
+    //    marker_options: {
+    //        icon: myIcon,
+    //        startIconUrl: null,
+    //        endIconUrl: null,
+    //        shadowUrl: null
+    //    }
+    //});
+    //gpx.addTo(map);
+
     for (i = 0; i < routes.length; i++) {
         for (j = 0; j < routes[i].gpx.length; j++){
+            // Route gpx
             var gpx = new L.GPX(routes[i].gpx[j].source, {
                 async: false,
                 marker_options: {
-                    startIcon: L.AwesomeMarkers.icon({
-                        className: 'android-walk',
-                        prefix: 'ion'
-                    }),
                     startIconUrl: null,
                     endIconUrl: null,
                     shadowUrl: null
@@ -33,11 +51,15 @@ $(document).ready(function() {
                     color: routes[i].color
                 }
             });
+
+            // Popup
+            var icon = routes[i].icon;
             var name = gpx.get_name();
             var distance = (gpx.get_distance() / 1000).toFixed(2);
-            var content = "<strong>" + name + "</strong> (" + distance + " km)";
+            var content = "<i class='" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)";
             if (routes[i].hasOwnProperty('link')){
-                content = content + "<br/><a href='" + routes[i].gpx[j].link + "' target='new'>Ver historia</a>";
+                var link = routes[i].gxp[j].link;
+                content = content + "<br/><a href='" + link + "' target='new'>Ver historia</a>";
             }
             gpx.bindPopup(content).addTo(map);
         }
