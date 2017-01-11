@@ -23,12 +23,18 @@ $(document).ready(function() {
                 startIconUrl: null,
                 endIconUrl: null,
                 shadowUrl: null
+            },
+            polyline_options: {
+                color: 'red'
             }
         });
-        //.on('loaded', function(e) {
-        //    name = e.target.get_name();
         var name = gpx.get_name();
-        gpx.bindPopup(name).addTo(map);
+        var distance = (gpx.get_distance() / 1000).toFixed(2);
+        var content = "<strong>" + name + "</strong> (" + distance + " km)";
+        if (routes[i].hasOwnProperty('link')){
+            content = content + "<br/><a href='" + routes[i].link + "' target='new'>Ver historia</a>";
+        }
+        gpx.bindPopup(content).addTo(map);
     }
 
 });
