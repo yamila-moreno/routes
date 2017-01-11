@@ -6,19 +6,17 @@
   xmlns="http://www.topografix.com/GPX/1/1"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
 <metadata>
-<time>2013-09-21T18:39:29Z</time>
-<bounds minlat="42.942938050" minlon="-0.772494720" maxlat="42.965059821" maxlon="-0.720634209"/>
+  <name>Subida al Anie (Auñamendi)</name>
 </metadata>
 <wpt lat="42.961543000" lon="-0.750411000">
   <ele>1904.237427</ele>
   <time>2013-09-21T13:39:21Z</time>
   <name>Setas</name>
-  <cmt>Setas</cmt>
-  <desc>Setas</desc>
-  <sym>Blood Trail</sym>
+  <cmt></cmt>
+  <desc></desc>
+  <sym></sym>
 </wpt>
 <trk>
-  <name>Subida al Anie (Auñamendi)</name>
 <trkseg>
 <trkpt lat="42.963512521" lon="-0.772191798">
   <ele>1653.600000</ele>
