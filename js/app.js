@@ -41,6 +41,9 @@ $(document).ready(function() {
         for (j = 0; j < routes[i].gpx.length; j++){
             // Route gpx
             var gpx = new L.GPX(routes[i].gpx[j].source, {
+                gpx_options: {
+                    parseElements: ['track', 'route']
+                },
                 async: false,
                 marker_options: {
                     startIconUrl: null,
