@@ -8,11 +8,11 @@ $(document).ready(function() {
         id: 'mapbox.outdoors'
     });
 
-    var centerMap = [40.428132, -3.686999];
+    var centerMap = [40.6390, -3.1229];
 
     map = L.map('map', {
         center: centerMap,
-        zoom: 3,
+        zoom: 9,
         layers: [outdoors]
     });
 
