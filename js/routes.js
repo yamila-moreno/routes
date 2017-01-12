@@ -2,7 +2,7 @@ var routes = [
     {
         "type": "Rutas senderistas",
         "icon": "icon ion-android-walk",
-        "color": "red",
+        "color": "orange",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2008-03-14_Ezcaray.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2013-09-07_La-Pennota.gpx"},
