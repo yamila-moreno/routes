@@ -18,25 +18,6 @@ $(document).ready(function() {
 
     var hash = new L.Hash(map);
 
-    //// Creates a red marker with the coffee icon
-    //var myIcon = new L.AwesomeMarkers.icon({
-    //    icon: 'coffee',
-    //    prefix: 'fa',
-    //    markerColor: 'blue',
-    //    iconColor: 'white'
-    //});
-    ////L.marker(centerMap, {icon: myIcon}).addTo(map);
-    //var gpx = new L.GPX(routes[0].gpx[0].source, {
-    //    async: false,
-    //    marker_options: {
-    //        icon: myIcon,
-    //        startIconUrl: null,
-    //        endIconUrl: null,
-    //        shadowUrl: null
-    //    }
-    //});
-    //gpx.addTo(map);
-
     for (i = 0; i < routes.length; i++) {
         var customIcon = routes[i].icon;
         var gpxs = routes[i].gpx;

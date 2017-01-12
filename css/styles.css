@@ -1,28 +1,3 @@
-/*
-bluegreen: #197994
-lightgreen: #198f94
-red: #cc393b
-
-marker_blue: #38a9dc
-marker_orange: #ec902e
-marker_green: #71af26
-*/
-
-.green {
-  fill: #71af26;
-  color: #71af26;
-}
-
-.orange {
-  fill: #ec902e;
-  color: #ec902e;
-}
-
-.red {
-  fill: red;
-  color: red;
-}
-
 body {
   margin: 0;
   padding: 0;
