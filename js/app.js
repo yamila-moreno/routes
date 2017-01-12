@@ -38,13 +38,20 @@ $(document).ready(function() {
     //gpx.addTo(map);
 
     for (i = 0; i < routes.length; i++) {
-        for (j = 0; j < routes[i].gpx.length; j++){
+        var customIcon = routes[i].icon;
+        var gpxs = routes[i].gpx;
+        for (j = 0; j < gpxs.length; j++){
+            // Custom link
+            var customLink = "";
+            if (gpxs[j].link){
+                customLink = "<br/><a href='" + gpxs[j].link + "' target='new'>Ver historia</a>";
+            }
             // Route gpx
-            var gpx = new L.GPX(routes[i].gpx[j].source, {
+            new L.GPX(gpxs[j].source, {
                 gpx_options: {
                     parseElements: ['track', 'route']
                 },
-                async: false,
+                async: true,
                 marker_options: {
                     startIconUrl: null,
                     endIconUrl: null,
@@ -52,19 +59,19 @@ $(document).ready(function() {
                 },
                 polyline_options: {
                     color: routes[i].color
-                }
-            });
-
-            // Popup
-            var icon = routes[i].icon;
-            var name = gpx.get_name();
-            var distance = (gpx.get_distance() / 1000).toFixed(2);
-            var content = "<i class='" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)";
-            if (routes[i].hasOwnProperty('link')){
-                var link = routes[i].gxp[j].link;
-                content = content + "<br/><a href='" + link + "' target='new'>Ver historia</a>";
-            }
-            gpx.bindPopup(content).addTo(map);
+                },
+                customLink: customLink,
+                customIcon: customIcon
+            })
+            .on('loaded', function(e){
+                // Popup
+                var link = e.target.options.customLink;
+                var icon = e.target.options.customIcon;
+                var name = e.target.get_name();
+                var distance = (e.target.get_distance() / 1000).toFixed(2);
+                var content = "<i class='" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
+                e.target.bindPopup(content);
+            }).addTo(map);
         }
     }
 
