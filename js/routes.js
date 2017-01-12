@@ -1,7 +1,7 @@
 var routes = [
     {
         "type": "Rutas senderistas",
-        "icon": "icon ion-android-walk",
+        "icon": "android-walk",
         "color": "orange",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2008-03-14_Ezcaray.gpx"},
@@ -28,7 +28,7 @@ var routes = [
     },
     {
         "type": "En bici",
-        "icon": "icon ion-android-bicycle",
+        "icon": "android-bicycle",
         "color": "green",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2012-09_Loire-a-Velo.gpx"},
@@ -40,7 +40,7 @@ var routes = [
     },
     {
         "type": "USA 2014",
-        "icon": "icon ion-android-walk",
+        "icon": "android-walk",
         "color": "blue",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2014/2014-09-05_Muir-Woods.gpx"},
@@ -58,7 +58,7 @@ var routes = [
     },
     {
         "type": "Suiza 2015",
-        "icon": "icon ion-android-walk",
+        "icon": "android-walk",
         "color": "blue",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/suiza2015/2015-08-30_Matterhorn.gpx"},
@@ -71,7 +71,7 @@ var routes = [
     },
     {
         "type": "Eslovenia 2016",
-        "icon": "icon ion-android-walk",
+        "icon": "android-walk",
         "color": "blue",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-16_Lago_Bled.gpx"},
@@ -90,7 +90,7 @@ var routes = [
     },
     {
         "type": "En coche",
-        "icon": "icon ion-android-car",
+        "icon": "android-car",
         "color": "red",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2014/usa-ruta.gpx"},

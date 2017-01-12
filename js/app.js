@@ -20,6 +20,7 @@ $(document).ready(function() {
 
     for (i = 0; i < routes.length; i++) {
         var customIcon = routes[i].icon;
+        var customColor = routes[i].color;
         var gpxs = routes[i].gpx;
         for (j = 0; j < gpxs.length; j++){
             // Custom link
@@ -34,12 +35,18 @@ $(document).ready(function() {
                 },
                 async: true,
                 marker_options: {
+                    startIcon: new L.AwesomeMarkers.icon({
+                        icon: customIcon,
+                        prefix: 'ion',
+                        markerColor: customColor,
+                        iconColor: 'white',
+                    }),
                     startIconUrl: null,
                     endIconUrl: null,
                     shadowUrl: null
                 },
                 polyline_options: {
-                    color: routes[i].color
+                    color: customColor
                 },
                 customLink: customLink,
                 customIcon: customIcon
@@ -50,7 +57,7 @@ $(document).ready(function() {
                 var icon = e.target.options.customIcon;
                 var name = e.target.get_name();
                 var distance = (e.target.get_distance() / 1000).toFixed(2);
-                var content = "<i class='" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
+                var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
                 e.target.bindPopup(content);
             }).addTo(map);
         }
