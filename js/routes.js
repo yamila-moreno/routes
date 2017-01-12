@@ -15,15 +15,15 @@ var routes = [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2014-06-21_Embalse-de-Irabia.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2014-07-06_Ruta-ecologica-Canencia.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-01-10_Senda_botanica.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-07-05_Windsor.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-01_Windmills.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-08_Dover-White-Cliffs.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-15_CapitalRing01.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-03-24_Pradera-Navalhondo.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-07-05_Windsor.gpx", "link": "http://dendarii.es/escapada-senderista-a-windsor/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-01_Windmills.gpx", "link": "http://dendarii.es/windmills-path-desde-hassocks-hasta-lewes/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-08_Dover-White-Cliffs.gpx", "link": "http://dendarii.es/dover-y-los-acantilados-blancos/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-15_CapitalRing01.gpx", "link": "http://dendarii.es/paseo-por-el-capital-ring-1/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-03-24_Pradera-Navalhondo.gpx", "link": "http://dendarii.es/semana-santa-2016-la-pradera-de-navalhondo/"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-04-17_Entre-embalses-Pelayos-de-la-presa.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-04-30_Porcieda_Tolibes.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-01_Raquetas_Fuente_De.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-15_Arribes.gpx"}
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-04-30_Porcieda_Tolibes.gpx", "link": "http://dendarii.es/comarca-de-liebana-y-picos-de-europa-nos-vamos-de-potes/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-01_Raquetas_Fuente_De.gpx", "link": "http://dendarii.es/comarca-de-liebana-y-picos-de-europa-raquetas-y-heidi/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-15_Arribes.gpx", "link": "http://dendarii.es/las-arribes-del-duero/"}
         ]
     },
     {
@@ -32,9 +32,9 @@ var routes = [
         "color": "green",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-09-27_Boadilla.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-10-04_Fiesta-de-la-bici.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-03-25_Via-Verde-Negrin.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-05-17_Via_Verde_Ojos_Negros.gpx"}
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-10-04_Fiesta-de-la-bici.gpx", "link": "http://dendarii.es/fiesta-de-la-bici-2015/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-03-25_Via-Verde-Negrin.gpx", "link": "http://dendarii.es/semana-santa-2016-chinchon-via-verde-negrin-y-colmenar-de-oreja/"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-05-17_Via_Verde_Ojos_Negros.gpx", "link": "http://dendarii.es/via-verde-de-ojos-negros/"}
         ]
     }
 ];
