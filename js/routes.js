@@ -70,6 +70,25 @@ var routes = [
         ]
     },
     {
+        "type": "Eslovenia 2016",
+        "icon": "icon ion-android-walk",
+        "color": "blue",
+        "gpx": [
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-16_Lago_Bled.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-16_Vintgar.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-17_Bohinjski_Jezero.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-17_Voje.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-18_Logarska_Dolina.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-19_Pokljuka.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-20_Velika_Planina.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-22_Slemenova.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-23_Sija.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-23_Vuelo-Parapente.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-24_Slap_Kozjak.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-24_Tolmin_Korita.gpx"}
+        ]
+    },
+    {
         "type": "En coche",
         "icon": "icon ion-android-car",
         "color": "red",
