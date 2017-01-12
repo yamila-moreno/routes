@@ -31,6 +31,7 @@ var routes = [
         "icon": "icon ion-android-bicycle",
         "color": "green",
         "gpx": [
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2012-09_Loire-a-Velo.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-09-27_Boadilla.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-10-04_Fiesta-de-la-bici.gpx", "link": "http://dendarii.es/fiesta-de-la-bici-2015/"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-03-25_Via-Verde-Negrin.gpx", "link": "http://dendarii.es/semana-santa-2016-chinchon-via-verde-negrin-y-colmenar-de-oreja/"},
