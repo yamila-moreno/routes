@@ -30,8 +30,9 @@ $(document).ready(function() {
             }
             // Route gpx
             new L.GPX(gpxs[j].source, {
+                max_point_interval: 7200000,
                 gpx_options: {
-                    parseElements: ['track', 'route']
+                    parseElements: ['route', 'track']
                 },
                 async: true,
                 marker_options: {
