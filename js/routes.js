@@ -89,6 +89,14 @@ var routes = [
         ]
     },
     {
+        "type": "Marruecos 2017",
+        "icon": "android-walk",
+        "color": "blue",
+        "gpx": [
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-15_Imlil.gpx"},
+        ]
+    },
+    {
         "type": "En coche",
         "icon": "android-car",
         "color": "red",
