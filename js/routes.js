@@ -94,6 +94,8 @@ var routes = [
         "color": "blue",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-15_Imlil.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-16_Paseo-bereber.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-16_Ruta-de-las-cascadas.gpx"},
         ]
     },
     {
