@@ -96,6 +96,9 @@ var routes = [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-15_Imlil.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-16_Paseo-bereber.gpx"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-16_Ruta-de-las-cascadas.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-21_Todra.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-22_Skoura.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-24_Marrakech.gpx"}
         ]
     },
     {
@@ -104,7 +107,10 @@ var routes = [
         "color": "red",
         "gpx": [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2014/usa-ruta.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/suiza2015/suiza-ruta.gpx"}
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/suiza2015/suiza-ruta.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/marruecos-ruta.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-19_Mhamid_ida.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-20_Erg_Chegaga_vuelta.gpx"},
         ]
     }
 ];
