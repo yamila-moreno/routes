@@ -25,7 +25,8 @@ var routes = [
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-01_Raquetas_Fuente_De.gpx", "link": "http://dendarii.es/comarca-de-liebana-y-picos-de-europa-raquetas-y-heidi/"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-15_Arribes.gpx", "link": "http://dendarii.es/las-arribes-del-duero/"},
             {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-03-18_Faedo_de_Cinera.gpx"},
-            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-03-19_Hayedo_de_Canseco.gpx"}
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-03-19_Hayedo_de_Canseco.gpx"},
+            {"source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-04-08_Hoya-de-San-Blas.gpx"}
         ]
     },
     {
