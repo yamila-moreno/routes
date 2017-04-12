@@ -18,50 +18,63 @@ $(document).ready(function() {
 
     var hash = new L.Hash(map);
 
-    for (i = 0; i < routes.length; i++) {
-        var customIcon = routes[i].icon;
-        var customColor = routes[i].color;
-        var gpxs = routes[i].gpx;
-        for (j = 0; j < gpxs.length; j++){
-            // Custom link
-            var customLink = "";
-            if (gpxs[j].link){
-                customLink = "<br/><a href='" + gpxs[j].link + "' target='new'>Ver historia</a>";
-            }
-            // Route gpx
-            new L.GPX(gpxs[j].source, {
-                max_point_interval: 7200000,
-                gpx_options: {
-                    parseElements: ['route', 'track']
-                },
-                async: true,
-                marker_options: {
-                    startIcon: new L.AwesomeMarkers.icon({
-                        icon: customIcon,
-                        prefix: 'ion',
-                        markerColor: customColor,
-                        iconColor: 'white',
-                    }),
-                    startIconUrl: null,
-                    endIconUrl: null,
-                    shadowUrl: null
-                },
-                polyline_options: {
-                    color: customColor
-                },
-                customLink: customLink,
-                customIcon: customIcon
-            })
-            .on('loaded', function(e){
-                // Popup
-                var link = e.target.options.customLink;
-                var icon = e.target.options.customIcon;
-                var name = e.target.get_name();
-                var distance = (e.target.get_distance() / 1000).toFixed(2);
-                var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
-                e.target.bindPopup(content);
-            }).addTo(map);
+    routes_bboxes = {};
+    for (var id in routes_dict) {
+        var customLink = "";
+        if (routes_dict[id].link){
+            customLink = "<br/><a href='" + routes_dict[id].link + "' target='new'>Ver historia</a>";
         }
+        customIcon = routes_dict[id].cat.icon;
+        customColor = routes_dict[id].cat.color;
+
+        // Route gpx
+        gpx = new L.GPX(routes_dict[id].source, {
+            max_point_interval: 7200000,
+            gpx_options: {
+                parseElements: ['route', 'track']
+            },
+            async: true,
+            marker_options: {
+                startIcon: new L.AwesomeMarkers.icon({
+                    icon: customIcon,
+                    prefix: 'ion',
+                    markerColor: customColor,
+                    iconColor: 'white',
+                }),
+                startIconUrl: null,
+                endIconUrl: null,
+                shadowUrl: null
+            },
+            polyline_options: {
+                color: customColor
+            },
+            customLink: customLink,
+            customIcon: customIcon
+        })
+        .on('loaded', function(e){
+            // Popup
+            var link = e.target.options.customLink;
+            var icon = e.target.options.customIcon;
+            var name = e.target.get_name();
+            var distance = (e.target.get_distance() / 1000).toFixed(2);
+            var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
+            e.target.bindPopup(content);
+        });
+        routes_bboxes[id] = gpx;
     }
 
+    map.on('moveend', function() {
+        // capturar NW y SE y seleccionar qué rutas voy a mostrar
+        console.log("NW: " + map.getBounds().getNorthWest() + " SE: " +  map.getBounds().getSouthEast());
+        var bboxMap = map.getBounds();
+        for (var id in routes_bboxes) {
+            if (isInside(routes_bboxes[id].getBounds(), bboxMap)) {
+                routes_bboxes[id].addTo(map);
+            }
+        }
+    });
 });
+
+function isInside(bboxRoute, bboxMap) {
+    return true;
+}
