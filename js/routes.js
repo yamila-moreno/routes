@@ -120,6 +120,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-04-08_Hoya-de-San-Blas.gpx",
         "cat": hiking_cat
     },
+    "vereda-cristo": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-05-21_Vereda-del-Cristo.gpx",
+        "cat": hiking_cat
+    },
     // BIKING
     "loira": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2012-09_Loire-a-Velo.gpx",
