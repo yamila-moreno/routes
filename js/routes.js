@@ -18,6 +18,31 @@ var car_cat = {
     "icon": "android-car"
 };
 
+var flight_cat = {
+    "color": "blue",
+    "icon": "android-plane"
+};
+
+var boat_cat = {
+    "color": "blue",
+    "icon": "android-boat"
+};
+
+var bus_cat = {
+    "color": "red",
+    "icon": "android-bus"
+};
+
+var train_cat = {
+    "color": "blue",
+    "icon": "android-train"
+};
+
+var motorbike_cat = {
+    "color": "blue",
+    "icon": "android-car"
+};
+
 var routes_dict = {
     // HIKING
     "ezcaray": {
@@ -316,5 +341,114 @@ var routes_dict = {
     "ruta-chegaga": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-20_Erg_Chegaga_vuelta.gpx",
         "cat": car_cat
+    },
+    // TRIPS - VIETNAM
+    "bus-hcmc-can-tho": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-01_Bus-HCMC-Can-Tho.gpx",
+        "cat": bus_cat
+    },
+    "boat-can-tho": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-02_Can-Tho.gpx",
+        "cat": boat_cat
+    },
+    "vuelo-hcmc-danang": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-03-Vuelo-HCMC-Danang.gpx",
+        "cat": flight_cat
+    },
+    "taxi-danang-hoi-an": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-03-Taxi-Danang-Hoi-An.gpx",
+        "cat": car_cat
+    },
+    "my-son": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-03_My-Son.gpx",
+        "cat": hiking_cat
+    },
+    "bus-hoi-an-hue": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-05_Bus-Hoi-An-Hue.gpx",
+        "cat": bus_cat
+    },
+    "tren-hue-dong-hoi": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-07_Tren-Hue-Dong-Hoi.gpx",
+        "cat": train_cat
+    },
+    "bus-dong-hoi-phong-nha": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-07_Bus-Dong-Hoi-Phong-Nha.gpx",
+        "cat": bus_cat
+    },
+    "phong-nha-cave": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-07_Phong-Nha-Cave.gpx",
+        "cat": hiking_cat
+    },
+    "jungle-trekking": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-08_Jungle-Trekking.gpx",
+        "cat": hiking_cat
+    },
+    "paradise-cave": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-08_Paradise-Cave.gpx",
+        "cat": hiking_cat
+    },
+    "botanic-garden": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-09_Botanic-Garden.gpx",
+        "cat": hiking_cat
+    },
+    "phong-nah-loop-1": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-09_Bucle-Phong-Nha-1.gpx",
+        "cat": motorbike_cat
+    },
+    "phong-nah-loop-2": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-09_Bucle-Phong-Nha-2.gpx",
+        "cat": motorbike_cat
+    },
+    "vuelo-dong-hoi-hanoi": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-10_Vuelo-Dong-Hoi-Hanoi.gpx",
+        "cat": flight_cat
+    },
+    "hanoi": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-15_Ha-Noi.gpx",
+        "cat": hiking_cat
+    },
+    "vuelo-hanoi-siem-reap": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-13_Vuelo-Hanoi-Siem-Reap.gpx",
+        "cat": flight_cat
+    },
+    "angkor-1": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-12_Angkor.gpx",
+        "cat": car_cat
+    },
+    "angkor-2": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-13_Angkor-II.gpx",
+        "cat": car_cat
+    },
+    "angkor-3": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-14_Floating-Village.gpx",
+        "cat": boat_cat
+    },
+    "bus-hanoi-mai-chau": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-16_Bus-Hanoi-Mai-Chau.gpx",
+        "cat": bus_cat
+    },
+    "trekking-mai-chau": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-16_Trekking-Mai-Chau.gpx",
+        "cat": hiking_cat
+    },
+    "cueva-1200-escalones": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-17_Cueva-1200-escalones.gpx",
+        "cat": hiking_cat
+    },
+    "crucero": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-18_Crucero-Ha-Long.gpx",
+        "cat": boat_cat
+    },
+    "ti-top": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-19_Ti-Top.gpx",
+        "cat": hiking_cat
+    },
+    "bus-hanoi-tam-coc": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-20_Bus-Hanoi-Tam-Coc.gpx",
+        "cat": bus_cat
+    },
+    "tam-coc": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-20_Tam-Coc.gpx",
+        "cat": boat_cat
     }
 };
