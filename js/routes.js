@@ -157,6 +157,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-06_Cuevo_de_Tesillos.gpx",
         "cat": hiking_cat
     },
+    "entre-rios": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-07_Entre_Rios.gpx",
+        "cat": hiking_cat
+    },
     // HIKING
     // BIKING
     "loira": {
