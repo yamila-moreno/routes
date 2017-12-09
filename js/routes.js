@@ -161,6 +161,18 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-07_Entre_Rios.gpx",
         "cat": hiking_cat
     },
+    "castanar-cuevas-del-valle": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-08_Cuevas-del-Valle.gpx",
+        "cat": hiking_cat
+    },
+    "senda-pescadores": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-08_Senda-de-los-Pescadores.gpx",
+        "cat": hiking_cat
+    },
+    "embalse-riocuevas": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-08_Embalse-de-Riocuevas.gpx",
+        "cat": hiking_cat
+    },
     // HIKING
     // BIKING
     "loira": {
