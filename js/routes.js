@@ -173,6 +173,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-08_Embalse-de-Riocuevas.gpx",
         "cat": hiking_cat
     },
+    "embalse-irabia-2": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-24_Embalse-de-Irabia.gpx",
+        "cat": hiking_cat
+    },
     // HIKING
     // BIKING
     "loira": {
