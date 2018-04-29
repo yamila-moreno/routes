@@ -475,5 +475,18 @@ var routes_dict = {
     "tam-coc": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-20_Tam-Coc.gpx",
         "cat": boat_cat
+    },
+    // TRIPS - LAKE DISTRICT
+    "orrest-head": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-28_Orrest-Head.gpx",
+        "cat": hiking_cat
+    },
+    "rydal-cave": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-29_Rydal-Cave.gpx",
+        "cat": hiking_cat
+    },
+    "cat-bells": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-29_Cat-Bells-and-Derwent-Water.gpx",
+        "cat": hiking_cat
     }
 };
