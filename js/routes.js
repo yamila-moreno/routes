@@ -89,7 +89,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-01-10_Senda_botanica.gpx",
         "cat": hiking_cat
     },
-    "windsor": {
+    "windsor-2015": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-07-05_Windsor.gpx",
         "link": "http://dendarii.es/escapada-senderista-a-windsor/",
         "cat": hiking_cat
@@ -175,6 +175,10 @@ var routes_dict = {
     },
     "embalse-irabia-2": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-24_Embalse-de-Irabia.gpx",
+        "cat": hiking_cat
+    },
+    "la-pedriza": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-05-15_La-Pedriza.gpx",
         "cat": hiking_cat
     },
     // HIKING
@@ -487,6 +491,14 @@ var routes_dict = {
     },
     "cat-bells": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-29_Cat-Bells-and-Derwent-Water.gpx",
+        "cat": hiking_cat
+    },
+    "scafell-pike": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-30_Scafell-Pike.gpx",
+        "cat": hiking_cat
+    },
+    "windsor-2018": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-05-06_Windsor.gpx",
         "cat": hiking_cat
     }
 };
