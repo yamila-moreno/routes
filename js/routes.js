@@ -177,6 +177,14 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-12-24_Embalse-de-Irabia.gpx",
         "cat": hiking_cat
     },
+    "riscos-de-levante": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-03-29_Riscos-de-Levante.gpx",
+        "cat": hiking_cat
+    },
+    "joyoarancon": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-03-30_Los-chorros-de-Joyoarancon.gpx",
+        "cat": hiking_cat
+    },
     "la-pedriza": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-05-15_La-Pedriza.gpx",
         "cat": hiking_cat
