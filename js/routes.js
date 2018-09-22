@@ -512,5 +512,10 @@ var routes_dict = {
     "windsor-2018": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-05-06_Windsor.gpx",
         "cat": hiking_cat
+    },
+    // TRIPS - USA 2018
+    "goodnow-mountain": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-19_Goodnow-Mountain.gpx",
+        "cat": trip_cat
     }
 };
