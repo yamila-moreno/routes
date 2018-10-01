@@ -517,5 +517,33 @@ var routes_dict = {
     "goodnow-mountain": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-19_Goodnow-Mountain.gpx",
         "cat": trip_cat
+    },
+    "elephant-back": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-27_Elephant-Back.gpx",
+        "cat": trip_cat
+    },
+    "natural-bridge": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-27_Natural-Bridge.gpx",
+        "cat": trip_cat
+    },
+    "pelikan-creek": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-27_Pelican-Creek-Trail.gpx",
+        "cat": trip_cat
+    },
+    "storm-point": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-27_Storm-Point-Nature-Trail.gpx",
+        "cat": trip_cat
+    },
+    "cascade-lake": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-29_Cascade-Lake.gpx",
+        "cat": trip_cat
+    },
+    "ice-lake": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-29_Ice-Lake-Trail.gpx",
+        "cat": trip_cat
+    },
+    "wraith-falls": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-30_Wraith-Falls.gpx",
+        "cat": trip_cat
     }
 };
