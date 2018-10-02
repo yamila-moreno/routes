@@ -545,5 +545,10 @@ var routes_dict = {
     "wraith-falls": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-09-30_Wraith-Falls.gpx",
         "cat": trip_cat
+    },
+    "beaver-ponds": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-01_Beaver-Ponds-Trail.gpx",
+        "cat": trip_cat
     }
+
 };
