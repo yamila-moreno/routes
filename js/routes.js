@@ -549,6 +549,17 @@ var routes_dict = {
     "beaver-ponds": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-01_Beaver-Ponds-Trail.gpx",
         "cat": trip_cat
+    },
+    "pebble-creek": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Pebble-Creek.gpx",
+        "cat": trip_cat
+    },
+    "trout-lake": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Trout-Lake.gpx",
+        "cat": trip_cat
+    },
+    "specimen-ridge": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Specimen-Ridge.gpx",
+        "cat": trip_cat
     }
-
 };
