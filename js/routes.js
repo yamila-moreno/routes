@@ -551,7 +551,7 @@ var routes_dict = {
         "cat": trip_cat
     },
     "pebble-creek": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Pebble-Creek.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Pebble-Creek-Trail.gpx",
         "cat": trip_cat
     },
     "trout-lake": {
