@@ -561,5 +561,9 @@ var routes_dict = {
     "specimen-ridge": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-02_Specimen-Ridge.gpx",
         "cat": trip_cat
+    },
+    "fairy-falls": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-04_Fairy-Falls.gpx",
+        "cat": trip_cat
     }
 };
