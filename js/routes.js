@@ -565,5 +565,9 @@ var routes_dict = {
     "fairy-falls": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-04_Fairy-Falls.gpx",
         "cat": trip_cat
+    },
+    "lone-star-geyser": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-05_Lone-Star-Geyser.gpx",
+        "cat": trip_cat
     }
 };
