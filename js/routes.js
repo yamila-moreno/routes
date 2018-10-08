@@ -569,5 +569,9 @@ var routes_dict = {
     "lone-star-geyser": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-05_Lone-Star-Geyser.gpx",
         "cat": trip_cat
+    },
+    "phelps-lake": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-07-Phelps-Lake.gpx",
+        "cat": trip_cat
     }
 };
