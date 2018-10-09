@@ -577,5 +577,9 @@ var routes_dict = {
     "hidden-falls": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-08-Hidden-Falls.gpx",
         "cat": trip_cat
+    },
+    "taggart-lake": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-09-Taggart-Lake.gpx",
+        "cat": trip_cat
     }
 };
