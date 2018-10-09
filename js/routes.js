@@ -573,5 +573,9 @@ var routes_dict = {
     "phelps-lake": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-07-Phelps-Lake.gpx",
         "cat": trip_cat
+    },
+    "hidden-falls": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-08-Hidden-Falls.gpx",
+        "cat": trip_cat
     }
 };
