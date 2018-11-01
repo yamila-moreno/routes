@@ -193,6 +193,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-06-03_Cabeza-Lijar.gpx",
         "cat": hiking_cat
     },
+    "el-palancar": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-11-01_El-Palancar.gpx",
+        "cat": hiking_cat
+    },
     // HIKING
     // BIKING
     "loira": {
