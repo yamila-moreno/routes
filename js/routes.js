@@ -133,6 +133,10 @@ var routes_dict = {
         "link": "http://dendarii.es/las-arribes-del-duero/",
         "cat": hiking_cat
     },
+    "ruta-de-las-fuentes": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-12-25_Urbasa-Itinerario-de-las-fuentes.gpx",
+        "cat": hiking_cat
+    },
     "cinera": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2017-03-18_Faedo_de_Cinera.gpx",
         "cat": hiking_cat
