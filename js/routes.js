@@ -201,6 +201,11 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-11-01_El-Palancar.gpx",
         "cat": hiking_cat
     },
+    "alto-del-mirlo": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-01-05_Alto-del-Mirlo.gpx",
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157705476646214"
+    },
     // HIKING
     // BIKING
     "loira": {
