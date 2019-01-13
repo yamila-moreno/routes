@@ -206,6 +206,11 @@ var routes_dict = {
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157705476646214"
     },
+    "la-jarosa": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-01-13_La-Jarosa.gpx",
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157704243654301"
+    },
     // HIKING
     // BIKING
     "loira": {
