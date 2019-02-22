@@ -609,4 +609,8 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-16_Vereda-dos-Balcoes.gpx",
         "cat": trip_cat
     },
+    "caldeirao-verde": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-18_Caldeirao-Verde.gpx",
+        "cat": trip_cat
+    }
 };
