@@ -599,5 +599,14 @@ var routes_dict = {
     "taggart-lake": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2018/2018-10-09-Taggart-Lake.gpx",
         "cat": trip_cat
-    }
+    },
+    // TRIPS - MADEIRA 2019
+    "ponta-sao-lourenco": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-16_Ponta-de-Sao-Lourenco.gpx",
+        "cat": trip_cat
+    },
+    "vereda-dos-balcoes": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-16_Vereda-dos-Balcoes.gpx",
+        "cat": trip_cat
+    },
 };
