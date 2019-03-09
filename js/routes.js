@@ -211,6 +211,14 @@ var routes_dict = {
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157704243654301"
     },
+    "la-buitrera": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-02_La-Buitrera.gpx",
+        "cat": hiking_cat
+    },
+    "senda-molinos": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019_03_03_Senda-de-los-molinos.gpx",
+        "cat": hiking_cat
+    },
     // HIKING
     // BIKING
     "loira": {
