@@ -57,21 +57,16 @@ $(document).ready(function() {
           var icon = e.target.options.customIcon;
           var name = e.target.get_name();
           var distance = (e.target.get_distance() / 1000).toFixed(2);
-          var gain = e.target.get_elevation_gain();
-          var loss = e.target.get_elevation_loss();
           var sd = e.target.get_start_time();
           var month = sd.getMonth() + 1;
-          var when = sd.getDate() + " / " + month + " / " + sd.getFullYear();
+          var when = sd.getDate() + "/" + month + "/" + sd.getFullYear();
           var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong>"
           if (when) {
             content = content + " - " + when;
           }
           content = content + "<br/>" + distance + " km";
-          if (gain && loss) {
-            content = content + " <i class='icon ion-md-arrow-up'></i>" + gain + " m <i class='icon ion-md-arrow-down'></i>" + loss + " m";
-          }
           if (link) {
-            content = content + "<br/>" + link;
+            content = content + " " + link;
           }
           e.target.bindPopup(content);
         });
