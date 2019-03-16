@@ -22,9 +22,9 @@ $(document).ready(function() {
     for (var id in routes_dict) {
         var customLink = "";
         if (routes_dict[id].link){
-            customLink = "<br/><a href='" + routes_dict[id].link + "' target='new'>Ver historia</a>";
+            customLink = "<a href='" + routes_dict[id].link + "' target='new'>Ver más</a> <i class='icon ion-md-open'>";
         }
-        customIcon = routes_dict[id].cat.icon;
+        customIcon = "md-" + routes_dict[id].cat.icon;
         customColor = routes_dict[id].cat.color;
 
         // Route gpx
@@ -52,13 +52,28 @@ $(document).ready(function() {
             customIcon: customIcon
         })
         .on('loaded', function(e){
-            // Popup
-            var link = e.target.options.customLink;
-            var icon = e.target.options.customIcon;
-            var name = e.target.get_name();
-            var distance = (e.target.get_distance() / 1000).toFixed(2);
-            var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong> (" + distance + " km)" + link;
-            e.target.bindPopup(content);
+          // Popup
+          var link = e.target.options.customLink;
+          var icon = e.target.options.customIcon;
+          var name = e.target.get_name();
+          var distance = (e.target.get_distance() / 1000).toFixed(2);
+          var gain = e.target.get_elevation_gain();
+          var loss = e.target.get_elevation_loss();
+          var sd = e.target.get_start_time();
+          var month = sd.getMonth() + 1;
+          var when = sd.getDate() + " / " + month + " / " + sd.getFullYear();
+          var content = "<i class='icon ion-" + icon + "'></i> <strong>" + name + "</strong>"
+          if (when) {
+            content = content + " - " + when;
+          }
+          content = content + "<br/>" + distance + " km";
+          if (gain && loss) {
+            content = content + " <i class='icon ion-md-arrow-up'></i>" + gain + " m <i class='icon ion-md-arrow-down'></i>" + loss + " m";
+          }
+          if (link) {
+            content = content + "<br/>" + link;
+          }
+          e.target.bindPopup(content);
         });
         routes_bboxes[id] = gpx;
     }

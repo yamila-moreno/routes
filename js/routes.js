@@ -1,46 +1,46 @@
 var hiking_cat = {
     "color": "orange",
-    "icon": "android-walk"
+    "icon": "walk"
 };
 
 var biking_cat = {
     "color": "green",
-    "icon": "android-bicycle"
+    "icon": "bicycle"
 };
 
 var trip_cat = {
     "color": "blue",
-    "icon": "android-walk"
+    "icon": "walk"
 };
 
 var car_cat = {
     "color": "red",
-    "icon": "android-car"
+    "icon": "car"
 };
 
 var flight_cat = {
     "color": "blue",
-    "icon": "android-plane"
+    "icon": "plane"
 };
 
 var boat_cat = {
     "color": "blue",
-    "icon": "android-boat"
+    "icon": "boat"
 };
 
 var bus_cat = {
     "color": "red",
-    "icon": "android-bus"
+    "icon": "bus"
 };
 
 var train_cat = {
     "color": "blue",
-    "icon": "android-train"
+    "icon": "train"
 };
 
 var motorbike_cat = {
     "color": "blue",
-    "icon": "android-car"
+    "icon": "car"
 };
 
 var routes_dict = {
@@ -91,27 +91,27 @@ var routes_dict = {
     },
     "windsor-2015": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-07-05_Windsor.gpx",
-        "link": "http://dendarii.es/escapada-senderista-a-windsor/",
+        "link": "https://dendarii.es/2015/07/escapada-senderista-a-windsor/",
         "cat": hiking_cat
     },
     "windmills": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-01_Windmills.gpx",
-        "link": "http://dendarii.es/windmills-path-desde-hassocks-hasta-lewes/",
+        "link": "https://dendarii.es/2015/08/windmills-path-desde-hassocks-hasta-lewes/",
         "cat": hiking_cat
     },
     "dover": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-08_Dover-White-Cliffs.gpx",
-        "link": "http://dendarii.es/dover-y-los-acantilados-blancos/",
+        "link": "https://dendarii.es/2015/08/dover-y-los-acantilados-blancos/",
         "cat": hiking_cat
     },
     "capital-ring-01": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2015-08-15_CapitalRing01.gpx",
-        "link": "http://dendarii.es/paseo-por-el-capital-ring-1/",
+        "link": "https://dendarii.es/2015/08/paseo-por-el-capital-ring-1/",
         "cat": hiking_cat
     },
     "navalhondo": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-03-24_Pradera-Navalhondo.gpx",
-        "link": "http://dendarii.es/semana-santa-2016-la-pradera-de-navalhondo/",
+        "link": "https://dendarii.es/2016/03/semana-santa-2016-la-pradera-de-navalhondo/",
         "cat": hiking_cat
     },
     "pelayos": {
@@ -120,17 +120,17 @@ var routes_dict = {
     },
     "porcieda": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-04-30_Porcieda_Tolibes.gpx",
-        "link": "http://dendarii.es/comarca-de-liebana-y-picos-de-europa-nos-vamos-de-potes/",
+        "link": "https://dendarii.es/2016/04/comarca-de-liebana-y-picos-de-europa-nos-vamos-de-potes/",
         "cat": hiking_cat
     },
     "fuente-de": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-01_Raquetas_Fuente_De.gpx",
-        "link": "http://dendarii.es/comarca-de-liebana-y-picos-de-europa-raquetas-y-heidi/",
+        "link": "https://dendarii.es/2016/05/comarca-de-liebana-y-picos-de-europa-raquetas-y-heidi/",
         "cat": hiking_cat
     },
     "arribes": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2016-05-15_Arribes.gpx",
-        "link": "http://dendarii.es/las-arribes-del-duero/",
+        "link": "https://dendarii.es/2016/06/las-arribes-del-duero/",
         "cat": hiking_cat
     },
     "ruta-de-las-fuentes": {
@@ -216,9 +216,13 @@ var routes_dict = {
         "cat": hiking_cat
     },
     "senda-molinos": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019_03_03_Senda-de-los-molinos.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-03_Senda-de-los-molinos.gpx",
         "cat": hiking_cat
     },
+     "mirador-vicente-aleixandre": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-16_Mirador-Vicente-Aleixandre.gpx",
+         "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "loira": {
@@ -231,17 +235,17 @@ var routes_dict = {
     },
     "fiesta-bici": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-10-04_Fiesta-de-la-bici.gpx",
-        "link": "http://dendarii.es/fiesta-de-la-bici-2015/",
+        "link": "https://dendarii.es/2015/10/fiesta-de-la-bici-2015/",
         "cat": biking_cat
     },
     "vv-negrin": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-03-25_Via-Verde-Negrin.gpx",
-        "link": "http://dendarii.es/semana-santa-2016-chinchon-via-verde-negrin-y-colmenar-de-oreja/",
+        "link": "https://dendarii.es/2016/03/semana-santa-2016-chinchon-via-verde-negrin-y-colmenar-de-oreja/",
         "cat": biking_cat
     },
     "vv-ojos-negros": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-05-17_Via_Verde_Ojos_Negros.gpx",
-        "link": "http://dendarii.es/via-verde-de-ojos-negros/",
+        "link": "https://dendarii.es/2016/08/via-verde-de-ojos-negros/",
         "cat": biking_cat
     },
     // TRIPS - USA
@@ -617,8 +621,8 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-16_Vereda-dos-Balcoes.gpx",
         "cat": trip_cat
     },
-    "caldeirao-verde": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-18_Caldeirao-Verde.gpx",
-        "cat": trip_cat
+     "caldeirao-verde": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-18_Caldeirao-Verde.gpx",
+         "cat": trip_cat
     }
 };
