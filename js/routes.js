@@ -223,6 +223,10 @@ var routes_dict = {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-16_Mirador-Vicente-Aleixandre.gpx",
          "cat": hiking_cat
      },
+     "el-berrueco": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-13_El-Berrueco.gpx",
+         "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "loira": {
