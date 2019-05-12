@@ -220,12 +220,21 @@ var routes_dict = {
         "cat": hiking_cat
     },
      "mirador-vicente-aleixandre": {
-         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-16_Mirador-Vicente-Aleixandre.gpx",
-         "cat": hiking_cat
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-03-16_Mirador-Vicente-Aleixandre.gpx",
+        "cat": hiking_cat
      },
      "el-berrueco": {
-         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-13_El-Berrueco.gpx",
-         "cat": hiking_cat
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-13_El-Berrueco.gpx",
+        "cat": hiking_cat
+     },
+     "hoyo-manzanares": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-28_Hoyo-de-Manzanares.gpx",
+        "cat": hiking_cat
+     },
+     "siete-picos": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-05-12_Siete-Picos.gpx",
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157708544975234"
      },
     // HIKING
     // BIKING
