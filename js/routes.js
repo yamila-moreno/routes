@@ -236,6 +236,10 @@ var routes_dict = {
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157708544975234"
      },
+     "la-cabrera-club-alpino": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-05-19_La-Cabrera-con-Club-Alpino.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "loira": {
