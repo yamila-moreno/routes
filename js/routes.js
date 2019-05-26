@@ -240,6 +240,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-05-19_La-Cabrera-con-Club-Alpino.gpx",
         "cat": hiking_cat
      },
+     "tejos-barondillo-club-alpino": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-05-25_Los-tejos-de-Barondillo-con-Club-Alpino.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "loira": {
