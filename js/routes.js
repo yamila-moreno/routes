@@ -248,6 +248,14 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-08-03_El-Tolmo.gpx",
         "cat": hiking_cat
      },
+     "robles-jauntsarats": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-08-15_Robles-de-Jauntsarats.gpx",
+        "cat": hiking_cat
+     },
+     "nacedero-larraun": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-08-17_Nacedero-del-Larraun.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "loira": {
