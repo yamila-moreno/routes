@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="OruxMaps v.7.5.4 GP" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<name>Coulée Trail</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2019-08-24T23:12:19.828Z</time><bounds maxlat="50.7615548" maxlon="-111.5180383" minlat="50.7563523" minlon="-111.5215484"/>
+</metadata>
+<wpt lat="50.7597278" lon="-111.5194901">
+<ele>649.19</ele>
+<time>2019-08-24T23:12:20.514Z</time>
+<name>Coulée Trail</name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="50.7615548" lon="-111.5185712">
+<ele>640.89</ele>
+<time>2019-08-25T00:11:15.132Z</time>
+<name>Coulée Trail</name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Hora Inicio: 17:12 24 ago. 2019<br/>Hora Fin: 18:10 24 ago. 2019<br/>Distancia recorrida: 1333,3m (00:58)<br/>Tiempo en movimiento: 00:28<br/>Velocidad media: 1,37 km/h<br/>Vel. en Mov.: 2,83 km/h<br/>Velocidad Máxima: 5,18 km/h<br/>Altura Mínima: 640 m<br/>Altura Máxima: 683 m<br/>Velocidad Ascenso: 86,6 m/h<br/>Velocidad Descenso: -97,8 m/h<br/>Ganancia Altitud: 40 m<br/>Pérdida Altitud: -48 m<br/>Tiempo Ascenso: 00:28<br/>Tiempo Descenso: 00:30<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[2019-08-24 17:12 Coulée Trail]]></name>
+<desc><![CDATA[<p>Hora Inicio: 17:12 24 ago. 2019<br/>Hora Fin: 18:10 24 ago. 2019<br/>Distancia recorrida: 1333,3 m (00:58)<br/>Tiempo en movimiento: 00:28<br/>Velocidad media: 1,37 km/h<br/>Vel. en Mov.: 2,84 km/h<br/>Velocidad Máxima: 5,18 km/h<br/>Altura Mínima: 640 m<br/>Altura Máxima: 683 m<br/>Velocidad Ascenso: 75,6 m/h<br/>Velocidad Descenso: -86,2 m/h<br/>Ganancia Altitud: 36 m<br/>Pérdida Altitud: -42 m<br/>Tiempo Ascenso: 00:28<br/>Tiempo Descenso: 00:29<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="50.7597278" lon="-111.5194901">
+<ele>649.19</ele>
+<time>2019-08-24T23:12:21.000Z</time>
+</trkpt>
+<trkpt lat="50.7595571" lon="-111.5195913">
+<ele>646.09</ele>
+<time>2019-08-24T23:14:54.000Z</time>
+</trkpt>
+<trkpt lat="50.7593820" lon="-111.5194809">
+<ele>647.05</ele>
+<time>2019-08-24T23:15:13.000Z</time>
+</trkpt>
+<trkpt lat="50.7592123" lon="-111.5195789">
+<ele>648.22</ele>
+<time>2019-08-24T23:15:33.000Z</time>
+</trkpt>
+<trkpt lat="50.7590475" lon="-111.5194379">
+<ele>647.79</ele>
+<time>2019-08-24T23:15:52.000Z</time>
+</trkpt>
+<trkpt lat="50.7588653" lon="-111.5193907">
+<ele>651.40</ele>
+<time>2019-08-24T23:16:56.000Z</time>
+</trkpt>
+<trkpt lat="50.7586788" lon="-111.5194062">
+<ele>648.58</ele>
+<time>2019-08-24T23:17:32.000Z</time>
+</trkpt>
+<trkpt lat="50.7585028" lon="-111.5194932">
+<ele>648.48</ele>
+<time>2019-08-24T23:17:54.000Z</time>
+</trkpt>
+<trkpt lat="50.7583598" lon="-111.5196726">
+<ele>643.90</ele>
+<time>2019-08-24T23:19:27.000Z</time>
+</trkpt>
+<trkpt lat="50.7582019" lon="-111.5198312">
+<ele>649.44</ele>
+<time>2019-08-24T23:20:00.000Z</time>
+</trkpt>
+<trkpt lat="50.7580674" lon="-111.5200335">
+<ele>652.08</ele>
+<time>2019-08-24T23:20:19.000Z</time>
+</trkpt>
+<trkpt lat="50.7578948" lon="-111.5201344">
+<ele>650.69</ele>
+<time>2019-08-24T23:20:37.000Z</time>
+</trkpt>
+<trkpt lat="50.7577323" lon="-111.5202753">
+<ele>650.95</ele>
+<time>2019-08-24T23:20:58.000Z</time>
+</trkpt>
+<trkpt lat="50.7575564" lon="-111.5203372">
+<ele>654.40</ele>
+<time>2019-08-24T23:22:04.000Z</time>
+</trkpt>
+<trkpt lat="50.7573841" lon="-111.5202490">
+<ele>659.57</ele>
+<time>2019-08-24T23:23:11.000Z</time>
+</trkpt>
+<trkpt lat="50.7572157" lon="-111.5203501">
+<ele>660.05</ele>
+<time>2019-08-24T23:25:35.000Z</time>
+</trkpt>
+<trkpt lat="50.7571795" lon="-111.5206354">
+<ele>662.16</ele>
+<time>2019-08-24T23:25:56.000Z</time>
+</trkpt>
+<trkpt lat="50.7570445" lon="-111.5208312">
+<ele>662.63</ele>
+<time>2019-08-24T23:26:18.000Z</time>
+</trkpt>
+<trkpt lat="50.7569130" lon="-111.5210435">
+<ele>662.61</ele>
+<time>2019-08-24T23:26:41.000Z</time>
+</trkpt>
+<trkpt lat="50.7567964" lon="-111.5212614">
+<ele>659.65</ele>
+<time>2019-08-24T23:27:33.000Z</time>
+</trkpt>
+<trkpt lat="50.7566756" lon="-111.5214766">
+<ele>666.30</ele>
+<time>2019-08-24T23:28:23.000Z</time>
+</trkpt>
+<trkpt lat="50.7564959" lon="-111.5215484">
+<ele>673.95</ele>
+<time>2019-08-24T23:30:59.000Z</time>
+</trkpt>
+<trkpt lat="50.7563867" lon="-111.5213192">
+<ele>679.41</ele>
+<time>2019-08-24T23:39:28.000Z</time>
+</trkpt>
+<trkpt lat="50.7564174" lon="-111.5210363">
+<ele>679.83</ele>
+<time>2019-08-24T23:39:52.000Z</time>
+</trkpt>
+<trkpt lat="50.7563572" lon="-111.5207593">
+<ele>683.76</ele>
+<time>2019-08-24T23:40:31.000Z</time>
+</trkpt>
+<trkpt lat="50.7564327" lon="-111.5204990">
+<ele>676.03</ele>
+<time>2019-08-24T23:42:01.000Z</time>
+</trkpt>
+<trkpt lat="50.7565130" lon="-111.5202318">
+<ele>675.89</ele>
+<time>2019-08-24T23:42:23.000Z</time>
+</trkpt>
+<trkpt lat="50.7564888" lon="-111.5199488">
+<ele>674.81</ele>
+<time>2019-08-24T23:42:56.000Z</time>
+</trkpt>
+<trkpt lat="50.7564116" lon="-111.5196869">
+<ele>675.09</ele>
+<time>2019-08-24T23:44:06.000Z</time>
+</trkpt>
+<trkpt lat="50.7563523" lon="-111.5194156">
+<ele>671.21</ele>
+<time>2019-08-24T23:44:52.000Z</time>
+</trkpt>
+<trkpt lat="50.7564111" lon="-111.5191375">
+<ele>664.50</ele>
+<time>2019-08-24T23:50:33.000Z</time>
+</trkpt>
+<trkpt lat="50.7565886" lon="-111.5190630">
+<ele>669.35</ele>
+<time>2019-08-24T23:52:31.000Z</time>
+</trkpt>
+<trkpt lat="50.7567363" lon="-111.5188843">
+<ele>668.63</ele>
+<time>2019-08-24T23:52:54.000Z</time>
+</trkpt>
+<trkpt lat="50.7568148" lon="-111.5186271">
+<ele>666.31</ele>
+<time>2019-08-24T23:53:49.000Z</time>
+</trkpt>
+<trkpt lat="50.7569926" lon="-111.5186780">
+<ele>663.37</ele>
+<time>2019-08-24T23:54:10.000Z</time>
+</trkpt>
+<trkpt lat="50.7570808" lon="-111.5184185">
+<ele>664.35</ele>
+<time>2019-08-24T23:56:06.000Z</time>
+</trkpt>
+<trkpt lat="50.7571710" lon="-111.5181710">
+<ele>660.94</ele>
+<time>2019-08-24T23:56:49.000Z</time>
+</trkpt>
+<trkpt lat="50.7573536" lon="-111.5182084">
+<ele>658.99</ele>
+<time>2019-08-24T23:58:23.000Z</time>
+</trkpt>
+<trkpt lat="50.7575313" lon="-111.5182998">
+<ele>658.43</ele>
+<time>2019-08-24T23:58:48.000Z</time>
+</trkpt>
+<trkpt lat="50.7577113" lon="-111.5182389">
+<ele>658.06</ele>
+<time>2019-08-24T23:59:15.000Z</time>
+</trkpt>
+<trkpt lat="50.7578478" lon="-111.5180383">
+<ele>655.57</ele>
+<time>2019-08-24T23:59:39.000Z</time>
+</trkpt>
+<trkpt lat="50.7580148" lon="-111.5181524">
+<ele>657.56</ele>
+<time>2019-08-25T00:00:27.000Z</time>
+</trkpt>
+<trkpt lat="50.7581588" lon="-111.5183366">
+<ele>653.56</ele>
+<time>2019-08-25T00:00:51.000Z</time>
+</trkpt>
+<trkpt lat="50.7582829" lon="-111.5185519">
+<ele>653.20</ele>
+<time>2019-08-25T00:01:12.000Z</time>
+</trkpt>
+<trkpt lat="50.7584676" lon="-111.5186122">
+<ele>656.61</ele>
+<time>2019-08-25T00:04:33.000Z</time>
+</trkpt>
+<trkpt lat="50.7586412" lon="-111.5187047">
+<ele>651.92</ele>
+<time>2019-08-25T00:04:55.000Z</time>
+</trkpt>
+<trkpt lat="50.7587932" lon="-111.5188738">
+<ele>651.39</ele>
+<time>2019-08-25T00:05:12.000Z</time>
+</trkpt>
+<trkpt lat="50.7589316" lon="-111.5190706">
+<ele>650.09</ele>
+<time>2019-08-25T00:05:30.000Z</time>
+</trkpt>
+<trkpt lat="50.7590119" lon="-111.5193336">
+<ele>650.61</ele>
+<time>2019-08-25T00:05:52.000Z</time>
+</trkpt>
+<trkpt lat="50.7591524" lon="-111.5195267">
+<ele>648.56</ele>
+<time>2019-08-25T00:06:10.000Z</time>
+</trkpt>
+<trkpt lat="50.7593296" lon="-111.5194466">
+<ele>648.72</ele>
+<time>2019-08-25T00:06:27.000Z</time>
+</trkpt>
+<trkpt lat="50.7595166" lon="-111.5194947">
+<ele>648.58</ele>
+<time>2019-08-25T00:06:42.000Z</time>
+</trkpt>
+<trkpt lat="50.7596860" lon="-111.5196062">
+<ele>649.10</ele>
+<time>2019-08-25T00:07:19.000Z</time>
+</trkpt>
+<trkpt lat="50.7598512" lon="-111.5194918">
+<ele>650.68</ele>
+<time>2019-08-25T00:07:41.000Z</time>
+</trkpt>
+<trkpt lat="50.7600322" lon="-111.5195615">
+<ele>651.42</ele>
+<time>2019-08-25T00:07:57.000Z</time>
+</trkpt>
+<trkpt lat="50.7601808" lon="-111.5193908">
+<ele>651.38</ele>
+<time>2019-08-25T00:08:14.000Z</time>
+</trkpt>
+<trkpt lat="50.7603376" lon="-111.5195595">
+<ele>651.14</ele>
+<time>2019-08-25T00:08:31.000Z</time>
+</trkpt>
+<trkpt lat="50.7604927" lon="-111.5197084">
+<ele>653.19</ele>
+<time>2019-08-25T00:08:46.000Z</time>
+</trkpt>
+<trkpt lat="50.7606742" lon="-111.5197656">
+<ele>648.96</ele>
+<time>2019-08-25T00:09:03.000Z</time>
+</trkpt>
+<trkpt lat="50.7608658" lon="-111.5197707">
+<ele>643.95</ele>
+<time>2019-08-25T00:09:20.000Z</time>
+</trkpt>
+<trkpt lat="50.7610564" lon="-111.5197543">
+<ele>640.83</ele>
+<time>2019-08-25T00:09:37.000Z</time>
+</trkpt>
+<trkpt lat="50.7612111" lon="-111.5196051">
+<ele>641.84</ele>
+<time>2019-08-25T00:09:51.000Z</time>
+</trkpt>
+<trkpt lat="50.7613376" lon="-111.5193784">
+<ele>642.11</ele>
+<time>2019-08-25T00:10:09.000Z</time>
+</trkpt>
+<trkpt lat="50.7614145" lon="-111.5191203">
+<ele>641.81</ele>
+<time>2019-08-25T00:10:23.000Z</time>
+</trkpt>
+<trkpt lat="50.7614854" lon="-111.5188396">
+<ele>641.09</ele>
+<time>2019-08-25T00:10:39.000Z</time>
+</trkpt>
+<trkpt lat="50.7615548" lon="-111.5185712">
+<ele>640.89</ele>
+<time>2019-08-25T00:10:55.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

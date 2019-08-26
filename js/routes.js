@@ -654,8 +654,21 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-16_Vereda-dos-Balcoes.gpx",
         "cat": trip_cat
     },
-     "caldeirao-verde": {
+    "caldeirao-verde": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/madeira2019/2019-02-18_Caldeirao-Verde.gpx",
+         "cat": trip_cat
+    },
+    // TRIPS - CANADÁ 2019
+    "cottonwood-flat": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-24_Cottonwood-Flat-Trail.gpx",
+         "cat": trip_cat
+    },
+    "coulee-trail": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-24_Coulee-Trail.gpx",
+         "cat": trip_cat
+    },
+    "coulee-trail": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-25_Centrosaur-Quarry-Tour.gpx",
          "cat": trip_cat
     }
 };
