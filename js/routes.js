@@ -667,8 +667,20 @@ var routes_dict = {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-24_Coulee-Trail.gpx",
          "cat": trip_cat
     },
-    "coulee-trail": {
+    "centrosaur-quarry-tour": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-25_Centrosaur-Quarry-Tour.gpx",
+         "cat": trip_cat
+    },
+    "hoodos-trail-writing": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-25_Hoodoos-Trail-Writing-on-Stone.gpx",
+         "cat": trip_cat
+    },
+    "crypt-lake": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-27_Crypt-Lake.gpx",
+         "cat": trip_cat
+    },
+    "plain-of-the-6-glacier": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-29_Plain-Of-The-Six-Glaciers.gpx",
          "cat": trip_cat
     }
 };
