@@ -682,5 +682,10 @@ var routes_dict = {
     "plain-of-the-6-glacier": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-29_Plain-Of-The-Six-Glaciers.gpx",
          "cat": trip_cat
+    },
+    "bow-river": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-30-Bow-River-and-Hoodoos.gpx",
+         "cat": trip_cat
     }
+
 };
