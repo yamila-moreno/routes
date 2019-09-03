@@ -686,6 +686,13 @@ var routes_dict = {
     "bow-river": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-30-Bow-River-and-Hoodoos.gpx",
          "cat": trip_cat
+    },
+    "consolation-lakes": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-08-31_Consolation-Lakes.gpx",
+         "cat": trip_cat
+    },
+    "sunshine-meadows": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-09-01_Sunshine-Meadows.gpx",
+         "cat": trip_cat
     }
-
 };
