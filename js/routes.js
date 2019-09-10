@@ -696,8 +696,11 @@ var routes_dict = {
          "cat": trip_cat
     },
     "jasper-town": {
-         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/gpx/canada2019/2019-09-03_Jasper-Town.gpx",
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/2019-09-03_Jasper-Town.gpx",
          "cat": trip_cat
+    },
+    "canada-itinerario": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/canada-2019-itinerario.gpx",
+         "cat": car_cat
     }
-
 };
