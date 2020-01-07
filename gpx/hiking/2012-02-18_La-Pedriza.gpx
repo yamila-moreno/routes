@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
+ <metadata>
   <time>2020-01-07T22:26:38.711Z</time>
   <bounds minlat="40.742044000" minlon="-3.886269000" maxlat="40.749470000" maxlon="-3.863445000"/>
+  </metadata>
   <wpt lat="40.743497000" lon="-3.879516000">
     <ele>0.000</ele>
-    <name>La Pedriza (inicio)</name>
-    <cmt>La Pedriza (inicio)</cmt>
-    <desc>La Pedriza (inicio)</desc>
+    <name>La Pedriza</name>
   </wpt>
   <wpt lat="40.742044000" lon="-3.882794000">
     <ele>0.000</ele>
@@ -503,11 +503,6 @@
       <trkpt lat="40.746111000" lon="-3.866421000">
         <ele>0.000</ele>
       </trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>La Pedriza (parte 2)</name>
-    <trkseg>
       <trkpt lat="40.746111000" lon="-3.866421000">
         <ele>0.000</ele>
       </trkpt>
@@ -925,11 +920,6 @@
       <trkpt lat="40.745756000" lon="-3.885530000">
         <ele>0.000</ele>
       </trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>La Pedriza (parte 3)</name>
-    <trkseg>
       <trkpt lat="40.745731000" lon="-3.885585000">
         <ele>0.000</ele>
       </trkpt>
