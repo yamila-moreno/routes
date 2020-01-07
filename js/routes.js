@@ -49,6 +49,34 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2008-03-14_Ezcaray.gpx",
         "cat": hiking_cat
     },
+    "ruta-parques": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2010-03-31_Ruta-de-los-parques.gpx",
+        "cat": hiking_cat
+    },
+    "senda-dos-rios": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2010-04-03_Senda-de-los-dos-rios.gpx",
+        "cat": hiking_cat
+    },
+    "molinilla-senda-larga": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2010-04-04_Senda-de-la-Molinilla-y-Senda-Larga.gpx",
+        "cat": hiking_cat
+    },
+    "dehesa-villa": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2010-04-09_Dehesa-de-la-Villa.gpx",
+        "cat": hiking_cat
+    },
+    "urbasa": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2011-05-14_Sierra-de-Urbasa.gpx",
+        "cat": hiking_cat
+    },
+    "la-pedriza-1": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2012-02-18_La-Pedriza.gpx",
+        "cat": hiking_cat
+    },
+    "almanzor": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2012-06-24_Subida-Almanzor.gpx",
+        "cat": hiking_cat
+    },
     "penota": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2013-09-07_La-Pennota.gpx",
         "cat": hiking_cat
@@ -189,7 +217,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-03-30_Los-chorros-de-Joyoarancon.gpx",
         "cat": hiking_cat
     },
-    "la-pedriza": {
+    "la-pedriza-2": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2018-05-15_La-Pedriza.gpx",
         "cat": hiking_cat
     },
@@ -256,32 +284,66 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-08-17_Nacedero-del-Larraun.gpx",
         "cat": hiking_cat
      },
+     "cancho-altares": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-05_Cancho-de-los-Altares.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
+    "medio-anillo-ciclista": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/Medio-anillo-ciclista.gpx",
+        "cat": biking_cat
+    },
+    "hierbabuena-casa-campo": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2010-05-22_Hierbabuena-Casa-De-Campo.gpx",
+        "cat": biking_cat
+    },
+    "paseo-del-arga": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2010-07-25_Paseo-del-Arga.gpx",
+        "cat": biking_cat
+    },
+    "vv-tajuna": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-05_Via-Verde-Tajuna.gpx",
+        "cat": biking_cat
+    },
+    "casa-campo-madrid-rio": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-05-27_Casa-de-Campo-y-Madrid-Rio.gpx",
+        "cat": biking_cat
+    },
+    "anillo-ciclista": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-06-10_Anillo-ciclista.gpx",
+        "cat": biking_cat
+    },
     "loira": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2012-09_Loire-a-Velo.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-09_Loire-a-Velo.gpx",
         "cat": biking_cat
     },
     "boadilla": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-09-27_Boadilla.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2015-09-27_Boadilla.gpx",
         "cat": biking_cat
     },
     "fiesta-bici": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2015-10-04_Fiesta-de-la-bici.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2015-10-04_Fiesta-de-la-bici.gpx",
         "link": "https://dendarii.es/2015/10/fiesta-de-la-bici-2015/",
         "cat": biking_cat
     },
     "vv-negrin": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-03-25_Via-Verde-Negrin.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2016-03-25_Via-Verde-Negrin.gpx",
         "link": "https://dendarii.es/2016/03/semana-santa-2016-chinchon-via-verde-negrin-y-colmenar-de-oreja/",
         "cat": biking_cat
     },
     "vv-ojos-negros": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/cycling/2016-05-17_Via_Verde_Ojos_Negros.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2016-05-17_Via_Verde_Ojos_Negros.gpx",
         "link": "https://dendarii.es/2016/08/via-verde-de-ojos-negros/",
         "cat": biking_cat
     },
-    // TRIPS - USA
+    // BIKING
+    // TRIPS - USA 2011
+    "smokies": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2011/2011-08-31_Waterfalls-in-Smoky-Mountains.gpx",
+        "cat": trip_cat
+    },
+    // TRIPS - USA 2014
     "muir-woods": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2014/2014-09-05_Muir-Woods.gpx",
         "cat": trip_cat
@@ -326,7 +388,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/usa2014/2014-09-14_Grand-Canyon-Helicoptero.gpx",
         "cat": trip_cat
     },
-    // TRIPS - SUIZA
+    // TRIPS - SUIZA 2015
     "matterhorn": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/suiza2015/2015-08-30_Matterhorn.gpx",
         "cat": trip_cat
@@ -351,7 +413,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/suiza2015/2015-09-06_Ruta-17-SNP.gpx",
         "cat": trip_cat
     },
-    // TRIPS - ESLOVENIA
+    // TRIPS - ESLOVENIA 2016
     "bled": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-16_Lago_Bled.gpx",
         "cat": trip_cat
@@ -400,7 +462,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/eslovenia2016/2016-09-24_Tolmin_Korita.gpx",
         "cat": trip_cat
     },
-    // TRIPS - MARRUECOS
+    // TRIPS - MARRUECOS 2017
     "imlill": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-15_Imlil.gpx",
         "cat": trip_cat
@@ -446,7 +508,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/marruecos2017/2017-01-20_Erg_Chegaga_vuelta.gpx",
         "cat": car_cat
     },
-    // TRIPS - VIETNAM
+    // TRIPS - VIETNAM 2017
     "bus-hcmc-can-tho": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-01_Bus-HCMC-Can-Tho.gpx",
         "cat": bus_cat
@@ -555,7 +617,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/vietnam2017/2017-10-20_Tam-Coc.gpx",
         "cat": boat_cat
     },
-    // TRIPS - LAKE DISTRICT
+    // TRIPS - LAKE DISTRICT 2018
     "orrest-head": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/lakedistrict2018/2018-04-28_Orrest-Head.gpx",
         "cat": hiking_cat
