@@ -288,6 +288,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-05_Cancho-de-los-Altares.gpx",
         "cat": hiking_cat
      },
+     "circular-colmenar-viejo": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-19_Circular-desde-Colmenar-Viejo.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
