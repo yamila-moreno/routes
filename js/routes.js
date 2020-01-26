@@ -290,11 +290,13 @@ var routes_dict = {
      },
      "circular-colmenar-viejo": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-19_Circular-desde-Colmenar-Viejo.gpx",
-        "cat": hiking_cat
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157712843262506"
      },
      "quijorna": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-26_Quijorna.gpx",
-        "cat": hiking_cat
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157712843353342"
      },
     // HIKING
     // BIKING
