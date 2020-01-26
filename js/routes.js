@@ -292,6 +292,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-19_Circular-desde-Colmenar-Viejo.gpx",
         "cat": hiking_cat
      },
+     "quijorna": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-01-26_Quijorna.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
