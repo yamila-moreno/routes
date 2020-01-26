@@ -301,7 +301,7 @@ var routes_dict = {
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/Medio-anillo-ciclista.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2010-08-08_Medio-anillo-ciclista.gpx",
         "cat": biking_cat
     },
     "hierbabuena-casa-campo": {

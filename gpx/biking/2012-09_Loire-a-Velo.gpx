@@ -4,10 +4,11 @@
     <name>Loire a Vèlo</name>
   </metadata>
   <trk>
-    <name>29</name>
-    <desc>time=2012-09-02T07:54:41Z</desc>
     <trkseg>
-      <trkpt lat="47.467185" lon="-0.549191"/>
+      <trkpt lat="47.467185" lon="-0.549191">
+        <ele>0.000</ele>
+        <time>2012-09-02T10:00:00.000Z</time>
+      <trkpt/>
       <trkpt lat="47.467185" lon="-0.549191"/>
       <trkpt lat="47.467185" lon="-0.549191"/>
       <trkpt lat="47.467185" lon="-0.549192"/>
@@ -495,10 +496,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>9</name>
-    <desc>time=2012-09-02T07:54:45Z</desc>
     <trkseg>
-      <trkpt lat="47.467186" lon="-0.549191"/>
+      <trkpt lat="47.467186" lon="-0.549191">
+        <ele>0.000</ele>
+        <time>2012-09-02T10:00:00.000Z</time>
+      <trkpt/>
       <trkpt lat="47.467186" lon="-0.549191"/>
       <trkpt lat="47.467232" lon="-0.54939"/>
       <trkpt lat="47.467369" lon="-0.549734"/>
@@ -2701,10 +2703,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>27</name>
-    <desc>time=2012-09-02T11:35:20Z</desc>
     <trkseg>
-      <trkpt lat="47.359525" lon="-0.259428"/>
+    <trkpt lat="47.359525" lon="-0.259428">
+        <ele>0.000</ele>
+        <time>2012-09-02T10:00:00.000Z</time>
+    <trkpt/>
       <trkpt lat="47.359344" lon="-0.259235"/>
       <trkpt lat="47.359153" lon="-0.259048"/>
       <trkpt lat="47.358947" lon="-0.258818"/>
@@ -3842,10 +3845,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>25</name>
-    <desc>time=2012-09-03T08:09:17Z</desc>
     <trkseg>
-      <trkpt lat="47.213979" lon="0.067164"/>
+     <trkpt lat="47.213979" lon="0.067164">
+        <ele>0.000</ele>
+        <time>2012-09-03T10:00:00.000Z</time>
+    <trkpt/>
       <trkpt lat="47.213966" lon="0.067336"/>
       <trkpt lat="47.213966" lon="0.067347"/>
       <trkpt lat="47.213965" lon="0.067354"/>
@@ -4359,10 +4363,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>13</name>
-    <desc>time=2012-09-03T16:54:31Z</desc>
     <trkseg>
-      <trkpt lat="47.167" lon="0.239842"/>
+      <trkpt lat="47.167" lon="0.239842">
+        <ele>0.000</ele>
+        <time>2012-09-03T10:00:00.000Z</time>
+      </trkpt>
       <trkpt lat="47.167032" lon="0.239873"/>
       <trkpt lat="47.167053" lon="0.239854"/>
       <trkpt lat="47.167066" lon="0.239853"/>
@@ -4933,10 +4938,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>18</name>
-    <desc>time=2012-09-04T07:58:00Z</desc>
     <trkseg>
-      <trkpt lat="47.213905" lon="0.067638"/>
+      <trkpt lat="47.213905" lon="0.067638">
+        <ele>0.000</ele>
+        <time>2012-09-04T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.214153" lon="0.067673"/>
       <trkpt lat="47.214142" lon="0.06767"/>
       <trkpt lat="47.214013" lon="0.067596"/>
@@ -5588,10 +5594,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>21</name>
-    <desc>time=2012-09-04T10:31:26Z</desc>
     <trkseg>
-      <trkpt lat="47.296184" lon="0.355593"/>
+      <trkpt lat="47.296184" lon="0.355593">
+        <ele>0.000</ele>
+        <time>2012-09-04T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.296172" lon="0.355648"/>
       <trkpt lat="47.296172" lon="0.355648"/>
       <trkpt lat="47.296171" lon="0.355648"/>
@@ -5643,10 +5650,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>10</name>
-    <desc>time=2012-09-04T10:43:13Z</desc>
     <trkseg>
-      <trkpt lat="47.297521" lon="0.365259"/>
+      <trkpt lat="47.297521" lon="0.365259">
+        <ele>0.000</ele>
+        <time>2012-09-04T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.297541" lon="0.365272"/>
       <trkpt lat="47.297483" lon="0.365275"/>
       <trkpt lat="47.297273" lon="0.365187"/>
@@ -5908,10 +5916,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>3</name>
-    <desc>time=2012-09-04T14:13:39Z</desc>
     <trkseg>
-      <trkpt lat="47.255506" lon="0.463367"/>
+      <trkpt lat="47.255506" lon="0.463367">
+        <ele>0.000</ele>
+        <time>2012-09-04T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.255806" lon="0.463671"/>
       <trkpt lat="47.256101" lon="0.463783"/>
       <trkpt lat="47.256353" lon="0.463879"/>
@@ -5976,10 +5985,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>2</name>
-    <desc>time=2012-09-04T17:55:55Z</desc>
     <trkseg>
-      <trkpt lat="47.261382" lon="0.466942"/>
+      <trkpt lat="47.261382" lon="0.466942">
+        <ele>0.000</ele>
+        <time>2012-09-04T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.261299" lon="0.46685"/>
       <trkpt lat="47.261343" lon="0.466364"/>
       <trkpt lat="47.261404" lon="0.465918"/>
@@ -6025,10 +6035,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>7</name>
-    <desc>time=2012-09-05T06:53:57Z</desc>
     <trkseg>
-      <trkpt lat="47.25511" lon="0.459968"/>
+      <trkpt lat="47.25511" lon="0.459968">
+        <ele>0.000</ele>
+        <time>2012-09-05T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.255087" lon="0.459758"/>
       <trkpt lat="47.255044" lon="0.459745"/>
       <trkpt lat="47.25503" lon="0.459726"/>
@@ -6387,10 +6398,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>1</name>
-    <desc>time=2012-09-05T10:17:24Z</desc>
     <trkseg>
-      <trkpt lat="47.341041" lon="0.514683"/>
+      <trkpt lat="47.341041" lon="0.514683">
+        <ele>0.000</ele>
+        <time>2012-09-05T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.34101" lon="0.514553"/>
       <trkpt lat="47.341019" lon="0.51451"/>
       <trkpt lat="47.341015" lon="0.514491"/>
@@ -6903,10 +6915,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>4</name>
-    <desc></desc>
     <trkseg>
-      <trkpt lat="47.343048" lon="1.184446"/>
+      <trkpt lat="47.343048" lon="1.184446">
+        <ele>0.000</ele>
+        <time>2012-09-05T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.342983" lon="1.184468"/>
       <trkpt lat="47.343044" lon="1.184536"/>
       <trkpt lat="47.343041" lon="1.184296"/>
@@ -7045,10 +7058,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>8</name>
-    <desc>time=2012-09-05T15:20:30Z</desc>
     <trkseg>
-      <trkpt lat="47.389435" lon="0.691152"/>
+      <trkpt lat="47.389435" lon="0.691152">
+        <ele>0.000</ele>
+        <time>2012-09-05T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.389435" lon="0.691152"/>
       <trkpt lat="47.389435" lon="0.691152"/>
       <trkpt lat="47.389435" lon="0.691152"/>
@@ -7076,19 +7090,21 @@
     </trkseg>
   </trk>
   <trk>
-    <name>24</name>
-    <desc>time=2012-09-05T21:34:42Z</desc>
     <trkseg>
-      <trkpt lat="47.392095" lon="0.679575"/>
+      <trkpt lat="47.392095" lon="0.679575">
+        <ele>0.000</ele>
+        <time>2012-09-05T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.392102" lon="0.679568"/>
       <trkpt lat="47.392102" lon="0.679568"/>
     </trkseg>
   </trk>
   <trk>
-    <name>19</name>
-    <desc>time=2012-09-06T21:15:34Z</desc>
     <trkseg>
-      <trkpt lat="47.392016" lon="0.679656"/>
+      <trkpt lat="47.392016" lon="0.679656">
+        <ele>0.000</ele>
+        <time>2012-09-06T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.3922" lon="0.679434"/>
       <trkpt lat="47.392193" lon="0.679455"/>
       <trkpt lat="47.392165" lon="0.679468"/>
@@ -7107,10 +7123,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>14</name>
-    <desc>time=2012-09-06T21:40:28Z</desc>
     <trkseg>
-      <trkpt lat="47.391955" lon="0.679721"/>
+      <trkpt lat="47.391955" lon="0.679721">
+        <ele>0.000</ele>
+        <time>2012-09-06T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.391867" lon="0.679804"/>
       <trkpt lat="47.392133" lon="0.679399"/>
       <trkpt lat="47.392173" lon="0.679328"/>
@@ -7162,10 +7179,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>23</name>
-    <desc>time=2012-09-07T07:37:15Z</desc>
     <trkseg>
-      <trkpt lat="47.391892" lon="0.679618"/>
+      <trkpt lat="47.391892" lon="0.679618">
+        <ele>0.000</ele>
+        <time>2012-09-07T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.392466" lon="0.679271"/>
       <trkpt lat="47.392523" lon="0.679305"/>
       <trkpt lat="47.392458" lon="0.679347"/>
@@ -8030,10 +8048,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>6</name>
-    <desc>time=2012-09-07T12:50:44Z</desc>
     <trkseg>
-      <trkpt lat="47.324971" lon="1.069665"/>
+      <trkpt lat="47.324971" lon="1.069665">
+        <ele>0.000</ele>
+        <time>2012-09-07T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.329604" lon="1.066641"/>
       <trkpt lat="47.329847" lon="1.066745"/>
       <trkpt lat="47.32988" lon="1.066716"/>
@@ -8298,10 +8317,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>12</name>
-    <desc>time=2012-09-07T16:22:03Z</desc>
     <trkseg>
-      <trkpt lat="47.365044" lon="1.140362"/>
+      <trkpt lat="47.365044" lon="1.140362">
+        <ele>0.000</ele>
+        <time>2012-09-07T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.365414" lon="1.140254"/>
       <trkpt lat="47.365737" lon="1.140155"/>
       <trkpt lat="47.36609" lon="1.140106"/>
@@ -8580,10 +8600,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>15</name>
-    <desc>time=2012-09-07T17:38:53Z</desc>
     <trkseg>
-      <trkpt lat="47.410883" lon="1.063212"/>
+      <trkpt lat="47.410883" lon="1.063212">
+        <ele>0.000</ele>
+        <time>2012-09-07T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.41086" lon="1.063223"/>
       <trkpt lat="47.410853" lon="1.063227"/>
       <trkpt lat="47.41084" lon="1.063232"/>
@@ -8757,10 +8778,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>20</name>
-    <desc>time=2012-09-07T19:54:22Z</desc>
     <trkseg>
-      <trkpt lat="47.416063" lon="0.983006"/>
+      <trkpt lat="47.416063" lon="0.983006">
+        <ele>0.000</ele>
+        <time>2012-09-07T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.41602" lon="0.982975"/>
       <trkpt lat="47.416017" lon="0.982973"/>
       <trkpt lat="47.416017" lon="0.982972"/>
@@ -8948,10 +8970,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>28</name>
-    <desc>time=2012-09-08T08:03:22Z</desc>
     <trkseg>
-      <trkpt lat="47.411112" lon="1.067307"/>
+      <trkpt lat="47.411112" lon="1.067307">
+        <ele>0.000</ele>
+        <time>2012-09-08T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.41144" lon="1.067893"/>
       <trkpt lat="47.411618" lon="1.068358"/>
       <trkpt lat="47.411749" lon="1.068733"/>
@@ -9435,10 +9458,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>26</name>
-    <desc>time=2012-09-08T14:39:23Z</desc>
     <trkseg>
-      <trkpt lat="47.476329" lon="1.18316"/>
+      <trkpt lat="47.476329" lon="1.18316">
+        <ele>0.000</ele>
+        <time>2012-09-08T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.476456" lon="1.183305"/>
       <trkpt lat="47.476473" lon="1.183302"/>
       <trkpt lat="47.476495" lon="1.18329"/>
@@ -10027,10 +10051,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>5</name>
-    <desc>time=2012-09-09T08:02:25Z</desc>
     <trkseg>
-      <trkpt lat="47.585304" lon="1.324168"/>
+      <trkpt lat="47.585304" lon="1.324168">
+        <ele>0.000</ele>
+        <time>2012-09-09T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.585328" lon="1.324128"/>
       <trkpt lat="47.585344" lon="1.323895"/>
       <trkpt lat="47.585342" lon="1.323878"/>
@@ -10529,10 +10554,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>11</name>
-    <desc>time=2012-09-09T14:52:22Z</desc>
     <trkseg>
-      <trkpt lat="47.616043" lon="1.513788"/>
+      <trkpt lat="47.616043" lon="1.513788">
+        <ele>0.000</ele>
+        <time>2012-09-09T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.616111" lon="1.513963"/>
       <trkpt lat="47.616216" lon="1.514224"/>
       <trkpt lat="47.616156" lon="1.514561"/>
@@ -10929,10 +10955,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>17</name>
-    <desc>time=2012-09-09T17:29:04Z</desc>
     <trkseg>
-      <trkpt lat="47.670964" lon="1.525978"/>
+      <trkpt lat="47.670964" lon="1.525978">
+        <ele>0.000</ele>
+        <time>2012-09-09T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.670959" lon="1.525975"/>
       <trkpt lat="47.670958" lon="1.525973"/>
       <trkpt lat="47.670956" lon="1.525969"/>
@@ -11399,10 +11426,11 @@
     </trkseg>
   </trk>
   <trk>
-    <name>22</name>
-    <desc>time=2012-09-10T09:51:24Z</desc>
     <trkseg>
       <trkpt lat="47.466159" lon="-0.552115"/>
+        <ele>0.000</ele>
+        <time>2012-09-10T10:00:00.000Z</time>
+    </trkpt>
       <trkpt lat="47.466166" lon="-0.552135"/>
       <trkpt lat="47.466162" lon="-0.552138"/>
       <trkpt lat="47.466163" lon="-0.552138"/>

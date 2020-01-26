@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2020-01-07T22:30:41.712Z</time>
-  <bounds minlat="40.366762000" minlon="-3.738868000" maxlat="40.514123000" maxlon="-3.598285000"/>
+    <metadata>
+        <name>Medio Anillo Ciclista</name>
+    </metadata>
   <trk>
     <name>medio anillo ciclista</name>
     <trkseg>
       <trkpt lat="40.461396000" lon="-3.700729000">
         <ele>755.000</ele>
+        <time>2010-08-08T10:00:00.000Z</time>
       </trkpt>
       <trkpt lat="40.461927000" lon="-3.700847000">
         <ele>863.000</ele>
