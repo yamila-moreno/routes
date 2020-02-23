@@ -298,6 +298,10 @@ var routes_dict = {
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157712843353342"
      },
+     "circular-navalafuente": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-02-22_Circular-Navalafuente.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
