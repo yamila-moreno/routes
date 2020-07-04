@@ -302,6 +302,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-02-22_Circular-Navalafuente.gpx",
         "cat": hiking_cat
      },
+     "torrecilla-cameros": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-02-29_Torrecilla-de-Cameros.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
