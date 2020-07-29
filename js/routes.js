@@ -310,6 +310,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-07-05_Senda-de-las-Pesquerias-Reales.gpx",
         "cat": hiking_cat
      },
+     "camino-ingeniero": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-07-28_Camino-del-Ingeniero.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
