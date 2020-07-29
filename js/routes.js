@@ -306,6 +306,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-02-29_Torrecilla-de-Cameros.gpx",
         "cat": hiking_cat
      },
+     "pesquerias-reales": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-07-05_Senda-de-las-Pesquerias-Reales.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
