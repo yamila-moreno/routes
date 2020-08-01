@@ -312,7 +312,13 @@ var routes_dict = {
      },
      "camino-ingeniero": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-07-28_Camino-del-Ingeniero.gpx",
-        "cat": hiking_cat
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157715280007426"
+     },
+     "lagunas-penalara": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gpx/hiking/2020-07-30_Lagunas-de-Penalara.gpx",
+        "cat": hiking_cat,
+        "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157715317699798"
      },
     // HIKING
     // BIKING
