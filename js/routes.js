@@ -316,7 +316,7 @@ var routes_dict = {
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157715280007426"
      },
      "lagunas-penalara": {
-        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gpx/hiking/2020-07-30_Lagunas-de-Penalara.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-07-30_Lagunas-de-Penalara.gpx",
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157715317699798"
      },
