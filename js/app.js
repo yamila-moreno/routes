@@ -75,7 +75,7 @@ $(document).ready(function() {
 
     map.on('moveend', function() {
         // capturar NW y SE y seleccionar qué rutas voy a mostrar
-        console.log("NW: " + map.getBounds().getNorthWest() + " SE: " +  map.getBounds().getSouthEast());
+        // console.log("NW: " + map.getBounds().getNorthWest() + " SE: " +  map.getBounds().getSouthEast());
         var bboxMap = map.getBounds();
         for (var id in routes_bboxes) {
             if (isInside(routes_bboxes[id].getBounds(), bboxMap)) {
