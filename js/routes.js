@@ -828,13 +828,12 @@ var routes_dict = {
     "canada-itinerario": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/canada2019/canada-2019-itinerario.gpx",
          "cat": car_cat
+    },
+    // TRIPS - WALKING FESTIVAL 2020
+    "wf-lac-pudo": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-24_Lac-de-Pudo.gpx",
+         "cat": hiking_cat
     }
-    // },
-    // // TRIPS - WALKING FESTIVAL 2020
-    // "wf-lac-pudo": {
-    //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-24_Lac-de-Pudo.gpx",
-    //      "cat": hiking_cat
-    // },
     // "wf-bosque-carlac": {
     //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-25_Bosque-de-Carlac.gpx",
     //      "cat": hiking_cat
@@ -858,4 +857,5 @@ var routes_dict = {
     // "wf-bonaigua": {
     //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-29_Bajada-de-Bonaigua.gpx",
     //      "cat": hiking_cat
+    // }
 };
