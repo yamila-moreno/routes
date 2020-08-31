@@ -845,11 +845,11 @@ var routes_dict = {
     "wf-artiga-lin": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Artiga-de-Lin.gpx",
          "cat": hiking_cat
+    },
+    "wf-camino-agua": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Camino-del-Agua.gpx",
+         "cat": hiking_cat
     }
-    // "wf-camino-agua": {
-    //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Camino-del-Agua.gpx",
-    //      "cat": hiking_cat
-    // },
     // "wf-molieres-conangles": {
     //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-28_Molieres-y-Conangles.gpx",
     //      "cat": hiking_cat
