@@ -833,11 +833,11 @@ var routes_dict = {
     "wf-lac-pudo": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-24_Lac-de-Pudo.gpx",
          "cat": hiking_cat
+    },
+    "wf-bosque-carlac": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-25_Bosque-de-Carlac.gpx",
+         "cat": hiking_cat
     }
-    // "wf-bosque-carlac": {
-    //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-25_Bosque-de-Carlac.gpx",
-    //      "cat": hiking_cat
-    // },
     // "wf-montgarri": {
     //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-26_Montgarri.gpx",
     //      "cat": hiking_cat
