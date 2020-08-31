@@ -853,9 +853,9 @@ var routes_dict = {
     "wf-molieres-conangles": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-28_Molieres-y-Conangles.gpx",
          "cat": hiking_cat
+    },
+    "wf-bonaigua": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-29_Bajada-de-Bonaigua.gpx",
+         "cat": hiking_cat
     }
-    // "wf-bonaigua": {
-    //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-29_Bajada-de-Bonaigua.gpx",
-    //      "cat": hiking_cat
-    // }
 };
