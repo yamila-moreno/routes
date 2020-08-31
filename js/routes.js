@@ -65,6 +65,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2010-04-09_Dehesa-de-la-Villa.gpx",
         "cat": hiking_cat
     },
+    "lunada-raquetas": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2011-02-19_Lunada-con-raquetas.gpx",
+        "cat": hiking_cat
+    },
     "urbasa": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2011-05-14_Sierra-de-Urbasa.gpx",
         "cat": hiking_cat
@@ -75,6 +79,22 @@ var routes_dict = {
     },
     "almanzor": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2012-06-24_Subida-Almanzor.gpx",
+        "cat": hiking_cat
+    },
+    "pico-ocejon": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2012-11-25_Pico-Ocejon.gpx",
+        "cat": hiking_cat
+    },
+    "penalara-nocturna": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2013-06-29_Subida-nocturna-Penalara.gpx",
+        "cat": hiking_cat
+    },
+    "barranco-peonera": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2013-08-15_Barranco-Peonera-Inferior.gpx",
+        "cat": hiking_cat
+    },
+    "baqueria-vielha": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2013-08-17_Baqueira-Beret-Vielha.gpx",
         "cat": hiking_cat
     },
     "penota": {
@@ -348,6 +368,18 @@ var routes_dict = {
     },
     "loira": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-09_Loire-a-Velo.gpx",
+        "cat": biking_cat
+    },
+    "anillo-ciclista-nocturno": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-09-29_Anillo-Verde-Ciclista-Nocturno.gpx",
+        "cat": biking_cat
+    },
+    "hayedo-tejera-negra": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2012-11-24_Hayedo-de-Tejera-Negra.gpx",
+        "cat": biking_cat
+    },
+    "via-verde-jara": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/biking/2014-05-11_Via-Verde-Jara.gpx",
         "cat": biking_cat
     },
     "boadilla": {
