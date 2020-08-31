@@ -837,11 +837,11 @@ var routes_dict = {
     "wf-bosque-carlac": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-25_Bosque-de-Carlac.gpx",
          "cat": hiking_cat
+    },
+    "wf-montgarri": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-26_Montgarri.gpx",
+         "cat": hiking_cat
     }
-    // "wf-montgarri": {
-    //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-26_Montgarri.gpx",
-    //      "cat": hiking_cat
-    // },
     // "wf-artiga-lin": {
     //      "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Artiga-de-Lin.gpx",
     //      "cat": hiking_cat
