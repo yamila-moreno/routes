@@ -832,30 +832,37 @@ var routes_dict = {
     // TRIPS - WALKING FESTIVAL 2020
     "wf-lac-pudo": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-24_Lac-de-Pudo.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715812811296/",
          "cat": hiking_cat
     },
     "wf-bosque-carlac": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-25_Bosque-de-Carlac.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715812902296/",
          "cat": hiking_cat
     },
     "wf-montgarri": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-26_Montgarri.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715812992526/",
          "cat": hiking_cat
     },
     "wf-artiga-lin": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Artiga-de-Lin.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715813057131/",
          "cat": hiking_cat
     },
     "wf-camino-agua": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-27_Camino-del-Agua.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715813057131/",
          "cat": hiking_cat
     },
     "wf-molieres-conangles": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-28_Molieres-y-Conangles.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715817595592/",
          "cat": hiking_cat
     },
     "wf-bonaigua": {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-29_Bajada-de-Bonaigua.gpx",
+        "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715817631727/",
          "cat": hiking_cat
     }
 };
