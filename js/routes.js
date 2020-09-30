@@ -340,6 +340,18 @@ var routes_dict = {
         "cat": hiking_cat,
         "link": "https://www.flickr.com/photos/yamila_moreno/albums/72157715317699798"
      },
+     "parada-sil": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-09-21_Parada-de-Sil.gpx",
+        "cat": hiking_cat
+     },
+     "miradoiros-albergueria": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-09-22_Miradoiros-Albergueria.gpx",
+        "cat": hiking_cat
+     },
+     "devesa-rogueira": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-09-24_Devesa-de-Rogueira.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
