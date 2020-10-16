@@ -62,10 +62,7 @@ $(document).ready(function() {
         routes_bboxes[id] = gpx;
     }
 
-    map.on('moveend', function() {
-        var bboxMap = map.getBounds();
-        for (var id in routes_bboxes) {
-            routes_bboxes[id].addTo(map);
-        }
-    });
+   for (var id in routes_bboxes) {
+       routes_bboxes[id].addTo(map);
+   }
 });
