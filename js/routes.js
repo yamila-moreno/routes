@@ -352,6 +352,11 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2020-09-24_Devesa-de-Rogueira.gpx",
         "cat": hiking_cat
      },
+     "perdigueras": {
+        // "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-02-28_Perdigueras.gpx",
+        "source": "../gpx/hiking/2021-02-28_Perdigueras.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
