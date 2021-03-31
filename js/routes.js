@@ -353,8 +353,15 @@ var routes_dict = {
         "cat": hiking_cat
      },
      "perdigueras": {
-        // "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-02-28_Perdigueras.gpx",
-        "source": "../gpx/hiking/2021-02-28_Perdigueras.gpx",
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-02-28_Perdigueras.gpx",
+        "cat": hiking_cat
+     },
+     "monte-raya": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-03-06_Monte-de-la-Raya.gpx",
+        "cat": hiking_cat
+     },
+     "pedriza-anterior": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-03-20_Pedriza-anterior.gpx",
         "cat": hiking_cat
      },
     // HIKING
