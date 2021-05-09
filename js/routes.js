@@ -364,6 +364,14 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-03-20_Pedriza-anterior.gpx",
         "cat": hiking_cat
      },
+     "puentes-canencia": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-04-17_Ruta-de-los-puentes-en-Canencia.gpx",
+        "cat": hiking_cat
+     },
+     "camino-horizontal": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-08_Camino-Horizontal-de-Navafria.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
