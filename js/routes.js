@@ -364,12 +364,20 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-03-20_Pedriza-anterior.gpx",
         "cat": hiking_cat
      },
+     "embalse-nagore": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-04-03_Embalse-de-Nagore.gpx",
+        "cat": hiking_cat
+     },
      "puentes-canencia": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-04-17_Ruta-de-los-puentes-en-Canencia.gpx",
         "cat": hiking_cat
      },
      "camino-horizontal": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-08_Camino-Horizontal-de-Navafria.gpx",
+        "cat": hiking_cat
+     },
+     "senda-barranca": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-23_Senda-de-la-Barranca.gpx",
         "cat": hiking_cat
      },
     // HIKING
