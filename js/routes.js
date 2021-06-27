@@ -904,5 +904,26 @@ var routes_dict = {
          "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/walkingfestival2020/2020-08-29_Bajada-de-Bonaigua.gpx",
         "link": "https://www.flickr.com/photos/yamila_moreno/sets/72157715817631727/",
          "cat": hiking_cat
+    },
+    // TRIPS - PIRINEO 2021
+    "coll-de-toro": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/pirineo2021/2021-06-12_Ibon-Coll-de-Toro.gpx",
+         "cat": hiking_cat
+    },
+    "escarpinosa": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/pirineo2021/2021-06-13_Ibon-de-Escarpinosa.gpx",
+         "cat": hiking_cat
+    },
+    "gorgas-de-alba": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/pirineo2021/2021-06-14_Gorgas-de-Alba.gpx",
+         "cat": hiking_cat
+    },
+    "bachimana": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/pirineo2021/2021-06-15_Ibon-de-Bachimana.gpx",
+         "cat": hiking_cat
+    },
+    "piedrafita": {
+         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/pirineo2021/2021-06-16_Ibon-de-Piedrafita.gpx",
+         "cat": hiking_cat
     }
 };
