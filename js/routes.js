@@ -382,6 +382,7 @@ var routes_dict = {
      },
      "ruta-del-jabali": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-09-05_Ruta-del-jabali.gpx",
+        "cat": hiking_cat
      },
     // HIKING
     // BIKING
