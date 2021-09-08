@@ -380,6 +380,9 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-23_Senda-de-la-Barranca.gpx",
         "cat": hiking_cat
      },
+     "ruta-del-jabali": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-09-05_Ruta-del-jabali.gpx",
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
