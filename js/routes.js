@@ -275,7 +275,7 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-13_El-Berrueco.gpx",
         "cat": hiking_cat
      },
-     "hoyo-manzanares": {
+     "hoyo-manzanares-1": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2019-04-28_Hoyo-de-Manzanares.gpx",
         "cat": hiking_cat
      },
@@ -380,8 +380,48 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-23_Senda-de-la-Barranca.gpx",
         "cat": hiking_cat
      },
+     "dehesa-moncalvillo": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-05-29_La-Dehesa-de-Moncalvillo.gpx",
+        "cat": hiking_cat
+     },
+     "poza-socrates": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-07-24_Poza-de-Socrates.gpx",
+        "cat": hiking_cat
+     },
+     "hoyo-manzanares-2": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-08-08_Paseo-por-Hoyo-de-Manzanares.gpx",
+        "cat": hiking_cat
+     },
+     "ruta-molinos": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-08-15_Ruta-de-los-molinos.gpx",
+        "cat": hiking_cat
+     },
      "ruta-del-jabali": {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-09-05_Ruta-del-jabali.gpx",
+        "cat": hiking_cat
+     },
+     "siete-valles": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-09-15_Los-casi-siete-valles.gpx",
+        "cat": hiking_cat
+     },
+     "irati-paraisos": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-10-14_Senda-de-los-paraisos.gpx",
+        "cat": hiking_cat
+     },
+     "robledal-orgi": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-10-15_Robledal-de-Orgi.gpx",
+        "cat": hiking_cat
+     },
+     "castanhos-centenarios": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-10-30_Ruta-de-los-castanhos-centenarios.gpx",
+        "cat": hiking_cat
+     },
+     "pilones-jerte": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-11-01_Los-pilones.gpx",
+        "cat": hiking_cat
+     },
+     "las-nogaleas": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-11-02_Garganta-de-las-Nogaleas.gpx",
         "cat": hiking_cat
      },
     // HIKING
