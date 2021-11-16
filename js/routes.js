@@ -424,6 +424,10 @@ var routes_dict = {
         "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-11-02_Garganta-de-las-Nogaleas.gpx",
         "cat": hiking_cat
      },
+     "cascada-purgatorio": {
+        "source": "https://raw.githubusercontent.com/yamila-moreno/routes/gh-pages/gpx/hiking/2021-11-14_Cascada-del-Purgatorio.gpx",
+        "cat": hiking_cat
+     },
     // HIKING
     // BIKING
     "medio-anillo-ciclista": {
