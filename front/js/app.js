@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+    async function getRoutes(url = '', data = {}) {
+      const response = await fetch(url,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+    }
+
     var map = L.map('map').setView([40.8265, -3.9131], 11);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -10,10 +21,18 @@ $(document).ready(function() {
                accessToken: 'pk.eyJ1IjoieWFtaWxhIiwiYSI6IjUzNDE5ZDRkZjBiZjBiZDY0YTBhZjBmNmUyZGYzYTZiIn0.okLJEzGsBQ6IOgn1mhToIQ'
     }).addTo(map);
     var hash = new L.Hash(map);
+
     map.on('moveend', function() {
-     console.log(map.getBounds().getWest() + ", " + map.getBounds().getSouth() + ", " + map.getBounds().getEast() + ", " + map.getBounds().getNorth());
+      // console.log('{ "minx": ' + map.getBounds().getWest() + ', "miny": ' + map.getBounds().getSouth() + ', "maxx": ' + map.getBounds().getEast() + ', "maxy": ' + map.getBounds().getNorth() + '}');
+      getRoutes('http://localhost:3000/rpc/get_routes?select=name', { "minx": -7.093048095703126, "miny": 41.03844854003296, "maxx": -6.215515136718751, "maxy": 41.27883851451407})
+      .then(data => {
+        console.log(data);
+      });
     });
 
+
+
+  /*
     routes_bboxes = {};
     for (var id in routes_dict) {
         var customLink = ""; if (routes_dict[id].link){ customLink = "<a href='" + routes_dict[id].link + "' target='new'>Ver más</a> <i class='icon ion-md-open'>"; } customIcon = "md-" + routes_dict[id].cat.icon;
@@ -65,7 +84,8 @@ $(document).ready(function() {
         routes_bboxes[id] = gpx;
     }
 
-   for (var id in routes_bboxes) {
-       routes_bboxes[id].addTo(map);
-   }
+    for (var id in routes_bboxes) {
+        routes_bboxes[id].addTo(map);
+    }
+  */
 });

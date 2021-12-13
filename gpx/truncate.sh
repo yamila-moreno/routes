@@ -1,5 +1,0 @@
-PGPASSWORD=routes psql -U routes -h localhost api -c "DROP TABLE tracks;"
-PGPASSWORD=routes psql -U routes -h localhost api -c "DROP TABLE track_points;"
-PGPASSWORD=routes psql -U routes -h localhost api -c "DROP TABLE routes;"
-PGPASSWORD=routes psql -U routes -h localhost api -c "DROP TABLE route_points;"
-PGPASSWORD=routes psql -U routes -h localhost api -c "DROP TABLE waypoints;"
