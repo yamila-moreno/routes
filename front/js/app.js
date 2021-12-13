@@ -10,6 +10,9 @@ $(document).ready(function() {
                accessToken: 'pk.eyJ1IjoieWFtaWxhIiwiYSI6IjUzNDE5ZDRkZjBiZjBiZDY0YTBhZjBmNmUyZGYzYTZiIn0.okLJEzGsBQ6IOgn1mhToIQ'
     }).addTo(map);
     var hash = new L.Hash(map);
+    map.on('moveend', function() {
+     console.log(map.getBounds().getWest() + ", " + map.getBounds().getSouth() + ", " + map.getBounds().getEast() + ", " + map.getBounds().getNorth());
+    });
 
     routes_bboxes = {};
     for (var id in routes_dict) {
