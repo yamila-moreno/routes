@@ -9,6 +9,7 @@ $(document).ready(function() {
           },
           body: JSON.stringify(data)
         });
+      return response.json();
     }
 
     var map = L.map('map').setView([40.8265, -3.9131], 11);
@@ -23,14 +24,20 @@ $(document).ready(function() {
     var hash = new L.Hash(map);
 
     map.on('moveend', function() {
-      // console.log('{ "minx": ' + map.getBounds().getWest() + ', "miny": ' + map.getBounds().getSouth() + ', "maxx": ' + map.getBounds().getEast() + ', "maxy": ' + map.getBounds().getNorth() + '}');
-      getRoutes('http://localhost:3000/rpc/get_routes?select=name', { "minx": -7.093048095703126, "miny": 41.03844854003296, "maxx": -6.215515136718751, "maxy": 41.27883851451407})
-      .then(data => {
-        console.log(data);
+      getRoutes('http://localhost:3000/rpc/get_routes', {
+        "minx": map.getBounds().getWest(),
+        "miny": map.getBounds().getSouth(),
+        "maxx": map.getBounds().getEast(),
+        "maxy": map.getBounds().getNorth()
+      }).then(data => {
+        for (let i=0; i < data.length; i++ ) {
+          var trackroute = data[i];
+          L.geoJSON(trackroute.geom).addTo(map);
+          var coords = [40.71369559554873, -4.257888793945313];
+          L.marker(coords).bindPopup("<p>holi, piweekers</p>").addTo(map);
+        }
       });
     });
-
-
 
   /*
     routes_bboxes = {};
