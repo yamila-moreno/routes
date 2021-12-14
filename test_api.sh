@@ -1,3 +1,3 @@
 curl "http://localhost:3000/rpc/get_routes?select=name" \
   -X POST -H "Content-Type: application/json" \
-  -d '{ "minx": -7.093048095703126, "miny": 41.03844854003296, "maxx": -6.215515136718751, "maxy": 41.27883851451407}'
+  -d '{ "minx": -142.64648437500003, "miny": 41.934976500546604, "maxx": -86.48437500000001, "maxy": 63.01510569831989 }'

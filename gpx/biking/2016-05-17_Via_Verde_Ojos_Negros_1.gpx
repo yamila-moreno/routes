@@ -1,9 +1,12 @@
 <?xml version="1.0" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="togpx">
-	<metadata/>
+    <metadata>
+		<name>Vía Verde Ojos Negros Día I</name>
+		<time>2016-05-17T11:04:00Z</time>
+    </metadata>
 	<trk>
 		<name>Vía Verde Ojos Negros Día I</name>
-		<desc>2016-05-17T11:04:00Z</desc>
+		<time>2016-05-17T11:04:00Z</time>
 		<trkseg>
 			<trkpt lat="40.564861" lon="-1.28551"/>
 			<trkpt lat="40.564811" lon="-1.285478"/>

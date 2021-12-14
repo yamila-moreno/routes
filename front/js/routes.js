@@ -1,3 +1,10 @@
+var categories = {
+  "hiking": {
+      "color": "orange",
+      "icon": "walk"
+  }
+};
+
 var hiking_cat = {
     "color": "orange",
     "icon": "walk"
