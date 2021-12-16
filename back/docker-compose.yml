@@ -5,26 +5,25 @@ services:
     ports:
       - "3000:3000"
     environment:
-      PGRST_DB_URI: postgres://routes:routes@db:5432/api
+      PGRST_DB_URI: ${PGRST_DB_URI}
       PGRST_DB_SCHEMA: public
-      PGRST_DB_ANON_ROLE: web_anon
-      PGRST_OPENAPI_SERVER_PROXY_URI: http://127.0.0.1:3000
+      PGRST_DB_ANON_ROLE: ${PGRST_DB_ANON_ROLE}
+      PGRST_OPENAPI_SERVER_PROXY_URI: ${PGRST_OPENAPI_SERVER_PROXY_URI}
     depends_on:
       - db
     networks:
       - routes
 
   db:
-    image: ryms/routes:13.0
+    image: kartoza/postgis:13.0
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: api
-      POSTGRES_USER: routes
-      POSTGRES_PASSWORD: routes
-      POSTGRES_MULTIPLE_EXTENSIONS: postgis
+      POSTGRES_DB: ${PG_DB_NAME}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
     volumes:
-      - routes-db-data:/var/lib/postgresql/data"
+      - routes-db-data:/var/lib/postgresql
     networks:
       - routes
 
@@ -33,7 +32,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      API_URL: http://localhost:3000/
+      API_URL: ${API_URL}
     networks:
       - routes
 
