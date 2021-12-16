@@ -51,7 +51,7 @@ def add_new_route(file_name, directory, category, city='', companion='', trip=''
         })
 
     # Commit changes to the repository (both metadata and the gpx)
-    run(f'git add {CSV_FILE} {destination_path} && git commit -a -m "Subida ruta {route_name}" && git push', shell=True)
+    run(f'git add routes_metadata.csv {destination_path} && git commit -m "Subida ruta {route_name}" && git push', shell=True)
 
 
 def batch_load():
