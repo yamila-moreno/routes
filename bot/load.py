@@ -1,3 +1,4 @@
+import csv
 import logging
 import pathlib
 import os
@@ -16,14 +17,58 @@ DB_USER = os.getenv("PG_USER")
 DB_PASSWORD = os.getenv("PGPASSWORD")
 
 
-def add_new_route(file_name, category, city='', companion='', trip=''):
-    process_gpx(file_name, category, city, companion, trip)
-    # TODO Move the original file to gpx/ directory
-    # TODO Add the new data to routes.py for batch loading
+def add_new_route(file_name, directory, category, city='', companion='', trip='', hikers='Tontako Team'):
+    _process_gpx(
+        file_name=file_name,
+        category=category,
+        city=city,
+        companion=companion,
+        trip=trip,
+        hikers=hikers,
+        photos='',
+        post=''
+    )
+
+    # Move the original file to gpx/ directory
+    destination_path = f"../gpx/{directory}/{file_name}"
+    os.rename(file_name, destination_path)
+
+    # Add the new data to routes_metadata.csv for batch loading
+    with open('routes_metadata.csv', mode='a+') as routes_metadata:
+        fieldnames = ['file_name', 'category', 'trip', 'companion', 'city', 'hikers', 'photos', 'post']
+        writer = csv.DictWriter(routes_metadata, fieldnames=fieldnames, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow({
+            'file_name': destination_path,
+            'category': category,
+            'trip': trip,
+            'companion': companion,
+            'city': city,
+            'hikers': hikers,
+            'photos': '',
+            'post': ''
+        })
+
     # TODO Commit changes to the repository
 
 
-def process_gpx(file_name, category, city='', companion='', trip=''):
+def batch_load():
+    with open('routes_metadata.csv', mode='r') as routes_metadata:
+        reader = csv.DictReader(routes_metadata, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        for route in reader:
+            logger.info(f"Uploaded {route['file_name']}")
+            _process_gpx(
+                file_name=route['file_name'],
+                category=route['category'],
+                city=route.get('city'),
+                trip=route.get('trip'),
+                hikers=route['hikers'] or 'Tontako Team',
+                companion=route.get('companion'),
+                photos=route.get('photos'),
+                post=route.get('post')
+            )
+
+
+def _process_gpx(file_name, category, city='', companion='', trip='', hikers='', photos='', post=''):
     # 1. load gpx in `tracks` table
     _load_gpx(file_name)
 
@@ -40,7 +85,10 @@ def process_gpx(file_name, category, city='', companion='', trip=''):
         category=category,
         city=city,
         companion=companion,
-        trip=trip
+        trip=trip,
+        hikers=hikers,
+        photos=photos,
+        post=post
     )
 
     # 4. delete content in `tracks` table
@@ -49,18 +97,6 @@ def process_gpx(file_name, category, city='', companion='', trip=''):
     # 5. update `myroutes` with start_point and distance
     _update_extras()
 
-
-def batch_load():
-    from routes import routes
-    for k, route in routes.items():
-        logger.info(f"Uploaded {route['file_name']}")
-        process_gpx(
-            file_name=route['file_name'],
-            category=route['cat'],
-            city=route.get('city'),
-            companion=route.get('companion'),
-            trip=route.get('trip')
-        )
 
 
 def _get_name(metadata, xml_info):
@@ -100,7 +136,7 @@ def _load_gpx(ogr_file):
     )
 
 
-def _update_tracks(name, date, category, city='', trip='', companion=''):
+def _update_tracks(name, date, category, city='', trip='', companion='', hikers='Tontako Team', photos='', post=''):
     run(f"""psql -U {DB_USER} -h localhost {DB_NAME} -c "
         WITH collected_road as (
             SELECT ST_CollectionExtract(
@@ -110,7 +146,9 @@ def _update_tracks(name, date, category, city='', trip='', companion=''):
                 2
             ) as whole_road
         )
-        INSERT INTO myroutes(name, date, geom, category, trip, start_point, distance, city, companion)
+        INSERT INTO myroutes(
+            name, date, geom, category, trip, start_point, distance, city, companion, hikers, photos, post
+        )
         VALUES(
             '{name}',
             '{date}',
@@ -120,7 +158,10 @@ def _update_tracks(name, date, category, city='', trip='', companion=''):
             ST_SetSRID(ST_MakePoint(0, 0), 4326),
             0,
             '{city}',
-            '{companion}'
+            '{companion}',
+            '{hikers}',
+            '{photos}',
+            '{post}'
         );
         "
     """, shell=True)

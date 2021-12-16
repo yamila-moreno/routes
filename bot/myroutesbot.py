@@ -41,6 +41,7 @@ def upload_gpx(update: Update, context: CallbackContext) -> int:
     # user data
     user_data = context.user_data
     user_data['file_name'] = file_name
+    user_data['directory'] = update.message.caption
 
     # enable next
     category_kb = [
