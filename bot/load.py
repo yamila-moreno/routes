@@ -14,7 +14,9 @@ logger = logging.getLogger(__name__)
 
 DB_NAME = os.getenv("PG_DB_NAME")
 DB_USER = os.getenv("PG_USER")
+DB_PORT = os.getenv("PG_HOST_PORT")
 DB_PASSWORD = os.getenv("PGPASSWORD")
+CSV_FILE = 'min_data.csv'
 
 
 def add_new_route(file_name, directory, category, city='', companion='', trip='', hikers='Tontako Team'):
@@ -34,7 +36,7 @@ def add_new_route(file_name, directory, category, city='', companion='', trip=''
     os.rename(file_name, destination_path)
 
     # Add the new data to routes_metadata.csv for batch loading
-    with open('routes_metadata.csv', mode='a+') as routes_metadata:
+    with open(CSV_FILE, mode='a+') as routes_metadata:
         fieldnames = ['file_name', 'category', 'trip', 'companion', 'city', 'hikers', 'photos', 'post']
         writer = csv.DictWriter(routes_metadata, fieldnames=fieldnames, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow({
@@ -49,11 +51,11 @@ def add_new_route(file_name, directory, category, city='', companion='', trip=''
         })
 
     # Commit changes to the repository (both metadata and the gpx)
-    run(f'git add -A && git commit -a -m "Subida ruta {route_name}" && git push', shell=True)
+    run(f'git add {CSV_FILE} {destination_path} && git commit -a -m "Subida ruta {route_name}" && git push', shell=True)
 
 
 def batch_load():
-    with open('routes_metadata.csv', mode='r') as routes_metadata:
+    with open(CSV_FILE, mode='r') as routes_metadata:
         reader = csv.DictReader(routes_metadata, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for route in reader:
             logger.info(f"Uploaded {route['file_name']}")
@@ -131,7 +133,7 @@ def _load_gpx(ogr_file):
     run(f"""ogr2ogr \
             -update \
             -append \
-            -f PostgreSQL PG:"dbname='{DB_NAME}' host='localhost' port='5432' user='{DB_USER}' password='{DB_PASSWORD}'" \
+            -f PostgreSQL PG:"dbname='{DB_NAME}' host='localhost' port='{DB_PORT}' user='{DB_USER}' password='{DB_PASSWORD}'" \
             -nlt PROMOTE_TO_MULTI \
             {ogr_file}""",
         shell=True
@@ -139,7 +141,7 @@ def _load_gpx(ogr_file):
 
 
 def _update_tracks(name, date, category, city='', trip='', companion='', hikers='Tontako Team', photos='', post=''):
-    run(f"""psql -U {DB_USER} -h localhost {DB_NAME} -c "
+    run(f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
         WITH collected_road as (
             SELECT ST_CollectionExtract(
                 ST_Collect(
@@ -170,7 +172,7 @@ def _update_tracks(name, date, category, city='', trip='', companion='', hikers=
 
 
 def _update_extras():
-    run(f"""psql -U {DB_USER} -h localhost {DB_NAME} -c "
+    run(f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
         WITH max_gid AS ( SELECT MAX(gid) AS max_gid FROM myroutes )
         UPDATE myroutes SET
             distance = TRUNC((ST_Length(geom)*100)::numeric, 2),
@@ -181,11 +183,11 @@ def _update_extras():
 
 
 def _truncate_tables():
-    run(f'psql -U {DB_USER} -h localhost {DB_NAME} -c "TRUNCATE tracks;"', shell=True)
-    run(f'psql -U {DB_USER} -h localhost {DB_NAME} -c "TRUNCATE track_points;"', shell=True)
-    run(f'psql -U {DB_USER} -h localhost {DB_NAME} -c "TRUNCATE routes;"', shell=True)
-    run(f'psql -U {DB_USER} -h localhost {DB_NAME} -c "TRUNCATE route_points;"', shell=True)
-    run(f'psql -U {DB_USER} -h localhost {DB_NAME} -c "TRUNCATE waypoints;"', shell=True)
+    run(f'psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "TRUNCATE tracks;"', shell=True)
+    run(f'psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "TRUNCATE track_points;"', shell=True)
+    run(f'psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "TRUNCATE routes;"', shell=True)
+    run(f'psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "TRUNCATE route_points;"', shell=True)
+    run(f'psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "TRUNCATE waypoints;"', shell=True)
 
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-psql -U ${PG_USER} -h localhost ${PG_DB_NAME} -c "
+psql -U ${PG_USER} -h localhost -p ${PG_HOST_PORT} ${PG_DB_NAME} -c "
 CREATE TABLE public.myroutes (
     gid serial primary key,
     name varchar,
@@ -15,8 +15,8 @@ CREATE TABLE public.myroutes (
     category varchar null
 );
 
-CREATE ROLE ${PGRST_ANON_ROLE} NOLOGIN;
-GRANT SELECT ON public.myroutes TO ${PGRST_ANON_ROLE};
+CREATE ROLE ${PGRST_DB_ANON_ROLE} NOLOGIN;
+GRANT SELECT ON public.myroutes TO ${PGRST_DB_ANON_ROLE};
 
 CREATE OR REPLACE FUNCTION public.get_routes(minx float, miny float, maxx float, maxy float)
 RETURNS TABLE(
@@ -42,3 +42,4 @@ AS \$\$
 
 \$\$ LANGUAGE SQL;
 "
+docker-compose kill -s SIGUSR1 server

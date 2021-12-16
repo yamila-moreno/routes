@@ -17,7 +17,7 @@ services:
   db:
     image: kartoza/postgis:13.0
     ports:
-      - "5432:5432"
+      - "${PG_HOST_PORT}:5432"
     environment:
       POSTGRES_DB: ${PG_DB_NAME}
       POSTGRES_USER: ${PG_USER}
