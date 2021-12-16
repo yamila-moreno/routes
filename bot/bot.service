@@ -1,0 +1,15 @@
+[Unit]
+Description=Bot de mis rutas
+After=network.target
+
+[Service]
+User=yami
+WorkingDirectory=/home/yami/routes/bot
+ExecStart=/bin/bash -c "source /home/yami/routes/env.sh && exec /home/yami/routes/bot/.venv/bin/python myroutesbot.py"
+Restart=always
+RestartSec=3
+
+Environment=PYTHONUNBUFFERED=true
+
+[Install]
+WantedBy=default.target

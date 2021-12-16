@@ -1,23 +1,29 @@
+import logging
 import pathlib
 import os
 from subprocess import run
 from xml.dom.minidom import parse
 
 
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+)
+
+logger = logging.getLogger(__name__)
+
 DB_NAME = os.getenv("PG_DB_NAME")
 DB_USER = os.getenv("PG_USER")
 DB_PASSWORD = os.getenv("PGPASSWORD")
 
 
-def add_new_route(file_name, category, city, companion=None, trip=None):
+def add_new_route(file_name, category, city='', companion='', trip=''):
     process_gpx(file_name, category, city, companion, trip)
-
     # TODO Move the original file to gpx/ directory
-
+    # TODO Add the new data to routes.py for batch loading
     # TODO Commit changes to the repository
 
 
-def process_gpx(file_name, category, city, companion=None, trip=None):
+def process_gpx(file_name, category, city='', companion='', trip=''):
     # 1. load gpx in `tracks` table
     _load_gpx(file_name)
 
@@ -45,35 +51,16 @@ def process_gpx(file_name, category, city, companion=None, trip=None):
 
 
 def batch_load():
-    directories = [
-        ['../gpx/biking', 'biking', ''],
-        ['../gpx/canada2019', 'hiking', 'Canadá 2019'],
-        ['../gpx/eslovenia2016', 'hiking', 'Eslovenia 2016'],
-        ['../gpx/hiking', 'hiking', ''],
-        ['../gpx/lakedistrict2018', 'hiking', 'Lake District 2018'],
-        ['../gpx/madeira2019', 'hiking', 'Madeira 2019'],
-        ['../gpx/marruecos2017', 'hiking', 'Marruecos 2017'],
-        ['../gpx/pirineo2021', 'hiking', 'Pirineros 2021'],
-        ['../gpx/suiza2015', 'hiking', 'Suiza 2015'],
-        ['../gpx/usa2011', 'hiking', 'USA 2011'],
-        ['../gpx/usa2014', 'hiking', 'USA 2014'],
-        ['../gpx/usa2018', 'hiking', 'USA 2018'],
-        ['../gpx/vietnam2017', 'hiking', 'Vietnam 2017'],
-        ['../gpx/walkingfestival2020', 'hiking', 'Walking Festival 2020']
-    ]
-
-    for col in directories:
-        for gpx_file in sorted(pathlib.Path(col[0]).rglob('*.gpx')):
-            if '_' in gpx_file.name:
-                ogr_file = gpx_file.joinpath()
-                print(ogr_file)
-                process_gpx(
-                    file_name=ogr_file,
-                    category=col[1],
-                    city='',
-                    companion='',
-                    trip=col[2]
-                )
+    from routes import routes
+    for k, route in routes.items():
+        logger.info(f"Uploaded {route['file_name']}")
+        process_gpx(
+            file_name=route['file_name'],
+            category=route['cat'],
+            city=route.get('city'),
+            companion=route.get('companion'),
+            trip=route.get('trip')
+        )
 
 
 def _get_name(metadata, xml_info):
