@@ -18,7 +18,7 @@ DB_PASSWORD = os.getenv("PGPASSWORD")
 
 
 def add_new_route(file_name, directory, category, city='', companion='', trip='', hikers='Tontako Team'):
-    _process_gpx(
+    route_name = _process_gpx(
         file_name=file_name,
         category=category,
         city=city,
@@ -48,7 +48,8 @@ def add_new_route(file_name, directory, category, city='', companion='', trip=''
             'post': ''
         })
 
-    # TODO Commit changes to the repository
+    # Commit changes to the repository (both metadata and the gpx)
+    run(f'git add -A && git commit -a -m "Subida ruta {route_name}" && git push', shell=True)
 
 
 def batch_load():
@@ -97,6 +98,7 @@ def _process_gpx(file_name, category, city='', companion='', trip='', hikers='',
     # 5. update `myroutes` with start_point and distance
     _update_extras()
 
+    return name
 
 
 def _get_name(metadata, xml_info):
