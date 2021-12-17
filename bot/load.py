@@ -16,7 +16,7 @@ DB_NAME = os.getenv("PG_DB_NAME")
 DB_USER = os.getenv("PG_USER")
 DB_PORT = os.getenv("PG_HOST_PORT")
 DB_PASSWORD = os.getenv("PGPASSWORD")
-CSV_FILE = 'min_data.csv'
+CSV_FILE = 'routes_metadata.csv'
 
 
 def add_new_route(file_name, directory, category, city='', companion='', trip='', hikers='Tontako Team'):
@@ -51,7 +51,7 @@ def add_new_route(file_name, directory, category, city='', companion='', trip=''
         })
 
     # Commit changes to the repository (both metadata and the gpx)
-    run(f'git add routes_metadata.csv {destination_path} && git commit -m "Subida ruta {route_name}" && git push', shell=True)
+    run(f'git add {CSV_FILE} {destination_path} && git commit -m "Subida ruta {route_name}" && git push', shell=True)
 
 
 def batch_load():
