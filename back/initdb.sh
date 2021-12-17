@@ -38,7 +38,7 @@ AS \$\$
   SELECT name, ST_AsGeoJSON(geom)::json, ST_AsGeoJSON(start_point)::json, distance,
          to_char(date, 'DD-MM-YYYY'), hikers, companion, city, photos, post, trip, category
   FROM   public.myroutes
-  WHERE  geom @ ST_MakeEnvelope (minx, miny, maxx, maxy, 4326)
+  WHERE  geom && ST_MakeEnvelope (minx, miny, maxx, maxy, 4326)
 
 \$\$ LANGUAGE SQL;
 "
