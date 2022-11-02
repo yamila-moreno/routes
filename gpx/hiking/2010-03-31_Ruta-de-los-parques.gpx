@@ -2,7 +2,6 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
     <metadata>
         <name>Ruta de los Parques</name>
-        <time>2010-03-31T10:00:00.000Z</time>
     </metadata>
   <trk>
     <name>Ruta De Los Parques</name>
@@ -1509,6 +1508,9 @@
         <ele>0.000</ele>
       </trkpt>
     </trkseg>
+  </trk>
+  <trk>
+    <name>Ruta De Los Parques (Parte 2)</name>
     <trkseg>
       <trkpt lat="40.462651000" lon="-3.708309000">
         <ele>0.000</ele>

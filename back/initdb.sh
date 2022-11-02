@@ -6,9 +6,8 @@ CREATE TABLE public.myroutes (
     start_point geometry(Point, 4326),
     distance float,
     date date,
-    hikers varchar DEFAULT 'Tontako Team',
+    participants varchar DEFAULT 'Tontako Team',
     city varchar null,
-    companion varchar null,
     photos varchar null,
     post varchar null,
     trip varchar null,
@@ -25,8 +24,7 @@ RETURNS TABLE(
     start_point json,
     distance float,
     date varchar,
-    hikers varchar,
-    companion varchar,
+    participants varchar,
     city varchar,
     photos varchar,
     post varchar,
@@ -36,7 +34,7 @@ RETURNS TABLE(
 AS \$\$
 
   SELECT name, ST_AsGeoJSON(geom)::json, ST_AsGeoJSON(start_point)::json, distance,
-         to_char(date, 'DD-MM-YYYY'), hikers, companion, city, photos, post, trip, category
+         to_char(date, 'DD-MM-YYYY'), participants, city, photos, post, trip, category
   FROM   public.myroutes
   WHERE  geom && ST_MakeEnvelope (minx, miny, maxx, maxy, 4326)
 

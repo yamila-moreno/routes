@@ -2,10 +2,9 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
     <metadata>
     <name>Sierra de Urbasa</name>
-        <time>2011-05-14T10:00:00.000Z</time>
     </metadata>
   <trk>
-    <name>Sierra de Urbasa</name>
+    <name>Sierra De Urbasa (parte 1)</name>
     <trkseg>
       <trkpt lat="42.783799000" lon="-2.117693000">
         <ele>0.000</ele>
@@ -339,6 +338,9 @@
         <ele>0.000</ele>
       </trkpt>
     </trkseg>
+  </trk>
+  <trk>
+    <name>Sierra De Urbasa (parte 2)</name>
     <trkseg>
       <trkpt lat="42.801061000" lon="-2.131661000">
         <ele>0.000</ele>
@@ -722,6 +724,9 @@
         <ele>0.000</ele>
       </trkpt>
     </trkseg>
+  </trk>
+  <trk>
+    <name>Sierra De Urbasa (parte 3)</name>
     <trkseg>
       <trkpt lat="42.793160000" lon="-2.128548000">
         <ele>0.000</ele>

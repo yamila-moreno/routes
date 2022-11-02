@@ -27,14 +27,14 @@ services:
     networks:
       - routes
 
-  swagger:
-    image: swaggerapi/swagger-ui
-    ports:
-      - "8080:8080"
-    environment:
-      API_URL: ${API_URL}
-    networks:
-      - routes
+        # swagger:
+        #   image: swaggerapi/swagger-ui
+        #   ports:
+        #     - "8080:8080"
+        #   environment:
+        #     API_URL: ${API_URL}
+        #   networks:
+        #     - routes
 
 volumes:
   routes-db-data:
