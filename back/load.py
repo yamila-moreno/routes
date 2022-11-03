@@ -135,7 +135,7 @@ def _load_gpx(ogr_file):
    """)
 
 
-def _update_tracks(name, date, category, city='', trip='', participants='Tontako Team', photos='', post=''):
+def _update_tracks(name, date, category, city=None, trip=None, participants='Tontako Team', photos=None, post=None):
     _run(f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
         WITH collected_road as (
             SELECT ST_CollectionExtract(
@@ -153,13 +153,13 @@ def _update_tracks(name, date, category, city='', trip='', participants='Tontako
             '{date}',
             (select whole_road from collected_road),
             '{category}',
-            '{trip}',
+            {trip or "NULL"},
             ST_SetSRID(ST_MakePoint(0, 0), 4326),
             0,
-            '{city}',
+            {city or "NULL"},
             '{participants}',
-            '{photos}',
-            '{post}'
+            {photos or "NULL"},
+            {post or "NULL"}
         );
         "
     """)
