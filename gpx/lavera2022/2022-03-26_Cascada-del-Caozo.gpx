@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="OruxMaps v.9.6.1 GP" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- owner: fde70ec02dacc0 -->
+<metadata>
+<name>Cascada del Caozo</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2022-03-26T09:59:52.220Z</time><bounds maxlat="40.1333946" maxlon="-5.8516797" minlat="40.1326739" minlon="-5.8528126"/>
+</metadata>
+<wpt lat="40.1333946" lon="-5.8526220">
+<ele>752.92</ele>
+<time>2022-03-26T09:59:53.124Z</time>
+<name><![CDATA[]]></name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="40.1333315" lon="-5.8527336">
+<ele>749.25</ele>
+<time>2022-03-26T10:15:36.994Z</time>
+<name><![CDATA[]]></name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Hora Inicio: 10:59 26 mar. 2022<br/>Hora Fin: 11:15 26 mar. 2022<br/>Distancia recorrida: 0,3km (00:15)<br/>Tiempo en movimiento: 00:06<br/>Velocidad media: 1,18 km/h<br/>Vel. en Mov.: 2,94 km/h<br/>Velocidad Máxima: 4,59 km/h<br/>Altura Mínima: 761 m<br/>Altura Máxima: 769 m<br/>Ganancia Altitud: 13 m<br/>Pérdida Altitud: 0 m<br/>Tiempo Ascenso: 00:06<br/>Tiempo Descenso: 00:00<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[2022-03-26 Cascada del Caozo]]></name>
+<desc><![CDATA[<p>Tipo: Indefinido<br/>Hora Inicio: 10:59 26 mar. 2022<br/>Hora Fin: 11:15 26 mar. 2022<br/>Distancia recorrida: 0,3 km (00:15)<br/>Tiempo en movimiento: 00:06<br/>Velocidad media: 1,18 km/h<br/>Vel. en Mov.: 2,94 km/h<br/>Velocidad Máxima: 4,59 km/h<br/>Altura Mínima: 761 m<br/>Altura Máxima: 769 m<br/>Velocidad Ascenso: 136,1 m/h<br/>Ganancia Altitud: 13 m<br/>Tiempo Ascenso: 00:06<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="40.1333946" lon="-5.8526220">
+<ele>752.92</ele>
+<time>2022-03-26T09:59:55.000Z</time>
+</trkpt>
+<trkpt lat="40.1332616" lon="-5.8527904">
+<ele>755.24</ele>
+<time>2022-03-26T10:00:13.000Z</time>
+</trkpt>
+<trkpt lat="40.1330779" lon="-5.8528126">
+<ele>748.91</ele>
+<time>2022-03-26T10:00:49.000Z</time>
+</trkpt>
+<trkpt lat="40.1330509" lon="-5.8525719">
+<ele>756.54</ele>
+<time>2022-03-26T10:01:09.000Z</time>
+</trkpt>
+<trkpt lat="40.1331207" lon="-5.8523492">
+<ele>759.19</ele>
+<time>2022-03-26T10:01:33.000Z</time>
+</trkpt>
+<trkpt lat="40.1329592" lon="-5.8522396">
+<ele>756.40</ele>
+<time>2022-03-26T10:03:56.000Z</time>
+</trkpt>
+<trkpt lat="40.1329098" lon="-5.8520132">
+<ele>759.04</ele>
+<time>2022-03-26T10:04:19.000Z</time>
+</trkpt>
+<trkpt lat="40.1327542" lon="-5.8518911">
+<ele>770.04</ele>
+<time>2022-03-26T10:05:12.000Z</time>
+</trkpt>
+<trkpt lat="40.1326739" lon="-5.8516797">
+<ele>774.19</ele>
+<time>2022-03-26T10:08:51.000Z</time>
+</trkpt>
+<trkpt lat="40.1326941" lon="-5.8519160">
+<ele>776.55</ele>
+<time>2022-03-26T10:11:17.000Z</time>
+</trkpt>
+<trkpt lat="40.1328655" lon="-5.8519998">
+<ele>775.77</ele>
+<time>2022-03-26T10:12:10.000Z</time>
+</trkpt>
+<trkpt lat="40.1330137" lon="-5.8521338">
+<ele>765.35</ele>
+<time>2022-03-26T10:12:53.000Z</time>
+</trkpt>
+<trkpt lat="40.1329642" lon="-5.8523649">
+<ele>765.33</ele>
+<time>2022-03-26T10:13:09.000Z</time>
+</trkpt>
+<trkpt lat="40.1331310" lon="-5.8524703">
+<ele>767.34</ele>
+<time>2022-03-26T10:13:39.000Z</time>
+</trkpt>
+<trkpt lat="40.1331492" lon="-5.8527070">
+<ele>770.55</ele>
+<time>2022-03-26T10:13:57.000Z</time>
+</trkpt>
+<trkpt lat="40.1333315" lon="-5.8527336">
+<ele>749.25</ele>
+<time>2022-03-26T10:15:23.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

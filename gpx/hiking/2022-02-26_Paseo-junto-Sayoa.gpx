@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="OruxMaps v.9.6.1 GP" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- owner: fde70ec02dacc0 -->
+<metadata>
+<name>Paseo junto al Sayoa</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2022-02-26T10:45:32.874Z</time><bounds maxlat="43.0390573" maxlon="-1.5235562" minlat="43.0375272" minlon="-1.5260313"/>
+</metadata>
+<wpt lat="43.0378259" lon="-1.5259507">
+<ele>777.70</ele>
+<time>2022-02-26T10:45:33.591Z</time>
+<name><![CDATA[</name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="43.0378259" lon="-1.5259507">
+<ele>777.70</ele>
+<time>2022-02-26T10:45:33.591Z</time>
+<name><![CDATA[]]></name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="43.0378575" lon="-1.5260313">
+<ele>779.64</ele>
+<time>2022-02-26T10:59:35.555Z</time>
+<name><![CDATA[]]></name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Hora Inicio: 11:45 26 feb. 2022<br/>Hora Fin: 11:57 26 feb. 2022<br/>Distancia recorrida: 0,6km (00:12)<br/>Tiempo en movimiento: 00:10<br/>Velocidad media: 2,99 km/h<br/>Vel. en Mov.: 3,54 km/h<br/>Velocidad Máxima: 5,23 km/h<br/>Altura Mínima: 784 m<br/>Altura Máxima: 796 m<br/>Velocidad Ascenso: 212,1 m/h<br/>Velocidad Descenso: 265,8 m/h<br/>Ganancia Altitud: 20 m<br/>Pérdida Altitud: 9 m<br/>Tiempo Ascenso: 00:05<br/>Tiempo Descenso: 00:02<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[2022-02-26 Paseo]]></name>
+<desc><![CDATA[<p>Tipo: Indefinido<br/>Hora Inicio: 11:45 26 feb. 2022<br/>Hora Fin: 11:57 26 feb. 2022<br/>Distancia recorrida: 0,6 km (00:12)<br/>Tiempo en movimiento: 00:10<br/>Velocidad media: 2,99 km/h<br/>Vel. en Mov.: 3,54 km/h<br/>Velocidad Máxima: 5,23 km/h<br/>Altura Mínima: 784 m<br/>Altura Máxima: 796 m<br/>Velocidad Ascenso: 212,1 m/h<br/>Velocidad Descenso: 265,8 m/h<br/>Ganancia Altitud: 20 m<br/>Pérdida Altitud: 9 m<br/>Tiempo Ascenso: 00:05<br/>Tiempo Descenso: 00:02<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="43.0378259" lon="-1.5259507">
+<ele>777.70</ele>
+<time>2022-02-26T10:45:33.000Z</time>
+</trkpt>
+<trkpt lat="43.0377301" lon="-1.5257392">
+<ele>781.26</ele>
+<time>2022-02-26T10:46:01.000Z</time>
+</trkpt>
+<trkpt lat="43.0376762" lon="-1.5254938">
+<ele>788.36</ele>
+<time>2022-02-26T10:46:26.000Z</time>
+</trkpt>
+<trkpt lat="43.0376652" lon="-1.5252463">
+<ele>789.69</ele>
+<time>2022-02-26T10:46:51.000Z</time>
+</trkpt>
+<trkpt lat="43.0376803" lon="-1.5250003">
+<ele>790.71</ele>
+<time>2022-02-26T10:47:15.000Z</time>
+</trkpt>
+<trkpt lat="43.0377186" lon="-1.5247558">
+<ele>790.97</ele>
+<time>2022-02-26T10:47:38.000Z</time>
+</trkpt>
+<trkpt lat="43.0377978" lon="-1.5245238">
+<ele>792.63</ele>
+<time>2022-02-26T10:48:17.000Z</time>
+</trkpt>
+<trkpt lat="43.0379235" lon="-1.5243309">
+<ele>787.45</ele>
+<time>2022-02-26T10:48:37.000Z</time>
+</trkpt>
+<trkpt lat="43.0380649" lon="-1.5241617">
+<ele>785.86</ele>
+<time>2022-02-26T10:48:56.000Z</time>
+</trkpt>
+<trkpt lat="43.0382047" lon="-1.5239918">
+<ele>781.86</ele>
+<time>2022-02-26T10:49:21.000Z</time>
+</trkpt>
+<trkpt lat="43.0383930" lon="-1.5239927">
+<ele>788.28</ele>
+<time>2022-02-26T10:49:55.000Z</time>
+</trkpt>
+<trkpt lat="43.0385503" lon="-1.5238653">
+<ele>777.68</ele>
+<time>2022-02-26T10:50:09.000Z</time>
+</trkpt>
+<trkpt lat="43.0387236" lon="-1.5237742">
+<ele>778.55</ele>
+<time>2022-02-26T10:50:39.000Z</time>
+</trkpt>
+<trkpt lat="43.0388896" lon="-1.5236506">
+<ele>780.79</ele>
+<time>2022-02-26T10:51:12.000Z</time>
+</trkpt>
+<trkpt lat="43.0390573" lon="-1.5237471">
+<ele>790.27</ele>
+<time>2022-02-26T10:51:39.000Z</time>
+</trkpt>
+<trkpt lat="43.0388832" lon="-1.5236720">
+<ele>792.87</ele>
+<time>2022-02-26T10:52:16.000Z</time>
+</trkpt>
+<trkpt lat="43.0387174" lon="-1.5235562">
+<ele>790.58</ele>
+<time>2022-02-26T10:52:34.000Z</time>
+</trkpt>
+<trkpt lat="43.0385488" lon="-1.5236468">
+<ele>791.68</ele>
+<time>2022-02-26T10:52:53.000Z</time>
+</trkpt>
+<trkpt lat="43.0383764" lon="-1.5237343">
+<ele>797.08</ele>
+<time>2022-02-26T10:53:24.000Z</time>
+</trkpt>
+<trkpt lat="43.0382355" lon="-1.5238941">
+<ele>798.30</ele>
+<time>2022-02-26T10:53:43.000Z</time>
+</trkpt>
+<trkpt lat="43.0380799" lon="-1.5240200">
+<ele>807.04</ele>
+<time>2022-02-26T10:54:00.000Z</time>
+</trkpt>
+<trkpt lat="43.0379147" lon="-1.5241438">
+<ele>799.12</ele>
+<time>2022-02-26T10:54:18.000Z</time>
+</trkpt>
+<trkpt lat="43.0377555" lon="-1.5242590">
+<ele>797.31</ele>
+<time>2022-02-26T10:54:39.000Z</time>
+</trkpt>
+<trkpt lat="43.0376850" lon="-1.5244967">
+<ele>791.21</ele>
+<time>2022-02-26T10:54:57.000Z</time>
+</trkpt>
+<trkpt lat="43.0375851" lon="-1.5247106">
+<ele>794.23</ele>
+<time>2022-02-26T10:55:16.000Z</time>
+</trkpt>
+<trkpt lat="43.0375563" lon="-1.5249537">
+<ele>787.88</ele>
+<time>2022-02-26T10:55:35.000Z</time>
+</trkpt>
+<trkpt lat="43.0375272" lon="-1.5252031">
+<ele>786.48</ele>
+<time>2022-02-26T10:55:59.000Z</time>
+</trkpt>
+<trkpt lat="43.0375530" lon="-1.5254476">
+<ele>786.00</ele>
+<time>2022-02-26T10:56:17.000Z</time>
+</trkpt>
+<trkpt lat="43.0376023" lon="-1.5256879">
+<ele>784.73</ele>
+<time>2022-02-26T10:56:40.000Z</time>
+</trkpt>
+<trkpt lat="43.0376942" lon="-1.5259116">
+<ele>776.68</ele>
+<time>2022-02-26T10:56:59.000Z</time>
+</trkpt>
+<trkpt lat="43.0378575" lon="-1.5260313">
+<ele>779.64</ele>
+<time>2022-02-26T10:57:54.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

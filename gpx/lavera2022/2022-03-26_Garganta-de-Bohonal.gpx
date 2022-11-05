@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="OruxMaps v.9.6.1 GP" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- owner: fde70ec02dacc0 -->
+<metadata>
+<name>Garganta de Bohonal</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2022-03-26T11:15:18.332Z</time><bounds maxlat="40.1358482" maxlon="-5.8626440" minlat="40.1341413" minlon="-5.8735162"/>
+</metadata>
+<wpt lat="40.1355053" lon="-5.8688563">
+<ele>594.66</ele>
+<time>2022-03-26T11:15:19.114Z</time>
+<name><![CDATA[]]></name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="40.1344613" lon="-5.8723984">
+<ele>584.50</ele>
+<time>2022-03-26T12:07:09.516Z</time>
+<name><![CDATA[]]></name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Hora Inicio: 12:15 26 mar. 2022<br/>Hora Fin: 13:04 26 mar. 2022<br/>Distancia recorrida: 2km (00:49)<br/>Tiempo en movimiento: 00:32<br/>Velocidad media: 2,39 km/h<br/>Vel. en Mov.: 3,62 km/h<br/>Velocidad Máxima: 5,43 km/h<br/>Altura Mínima: 587 m<br/>Altura Máxima: 661 m<br/>Velocidad Ascenso: 1955,8 m/h<br/>Velocidad Descenso: 359,4 m/h<br/>Ganancia Altitud: 67 m<br/>Pérdida Altitud: 74 m<br/>Tiempo Ascenso: 00:02<br/>Tiempo Descenso: 00:12<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[2022-03-26 Garganta de Bohonal]]></name>
+<desc><![CDATA[<p>Tipo: Indefinido<br/>Hora Inicio: 12:15 26 mar. 2022<br/>Hora Fin: 13:04 26 mar. 2022<br/>Distancia recorrida: 2 km (00:49)<br/>Tiempo en movimiento: 00:32<br/>Velocidad media: 2,39 km/h<br/>Vel. en Mov.: 3,62 km/h<br/>Velocidad Máxima: 5,43 km/h<br/>Altura Mínima: 587 m<br/>Altura Máxima: 661 m<br/>Velocidad Ascenso: 1955,8 m/h<br/>Velocidad Descenso: 359,4 m/h<br/>Ganancia Altitud: 67 m<br/>Pérdida Altitud: 74 m<br/>Tiempo Ascenso: 00:02<br/>Tiempo Descenso: 00:12<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0">
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="40.1355053" lon="-5.8688563">
+<ele>594.66</ele>
+<time>2022-03-26T11:15:21.000Z</time>
+</trkpt>
+<trkpt lat="40.1355536" lon="-5.8686216">
+<ele>596.46</ele>
+<time>2022-03-26T11:15:51.000Z</time>
+</trkpt>
+<trkpt lat="40.1355359" lon="-5.8683796">
+<ele>596.80</ele>
+<time>2022-03-26T11:16:08.000Z</time>
+</trkpt>
+<trkpt lat="40.1354706" lon="-5.8681514">
+<ele>600.81</ele>
+<time>2022-03-26T11:16:25.000Z</time>
+</trkpt>
+<trkpt lat="40.1354411" lon="-5.8679164">
+<ele>599.62</ele>
+<time>2022-03-26T11:16:42.000Z</time>
+</trkpt>
+<trkpt lat="40.1355027" lon="-5.8676805">
+<ele>600.06</ele>
+<time>2022-03-26T11:16:59.000Z</time>
+</trkpt>
+<trkpt lat="40.1355575" lon="-5.8674465">
+<ele>601.12</ele>
+<time>2022-03-26T11:17:17.000Z</time>
+</trkpt>
+<trkpt lat="40.1356248" lon="-5.8672249">
+<ele>603.19</ele>
+<time>2022-03-26T11:17:38.000Z</time>
+</trkpt>
+<trkpt lat="40.1356582" lon="-5.8669813">
+<ele>607.91</ele>
+<time>2022-03-26T11:18:02.000Z</time>
+</trkpt>
+<trkpt lat="40.1356965" lon="-5.8667460">
+<ele>611.08</ele>
+<time>2022-03-26T11:18:29.000Z</time>
+</trkpt>
+<trkpt lat="40.1357151" lon="-5.8664794">
+<ele>615.02</ele>
+<time>2022-03-26T11:18:59.000Z</time>
+</trkpt>
+<trkpt lat="40.1358198" lon="-5.8662817">
+<ele>618.83</ele>
+<time>2022-03-26T11:19:58.000Z</time>
+</trkpt>
+<trkpt lat="40.1356380" lon="-5.8662408">
+<ele>623.86</ele>
+<time>2022-03-26T11:20:41.000Z</time>
+</trkpt>
+<trkpt lat="40.1355297" lon="-5.8664342">
+<ele>628.41</ele>
+<time>2022-03-26T11:21:21.000Z</time>
+</trkpt>
+<trkpt lat="40.1354797" lon="-5.8661943">
+<ele>628.85</ele>
+<time>2022-03-26T11:21:50.000Z</time>
+</trkpt>
+<trkpt lat="40.1355205" lon="-5.8659601">
+<ele>631.93</ele>
+<time>2022-03-26T11:22:22.000Z</time>
+</trkpt>
+<trkpt lat="40.1356478" lon="-5.8657885">
+<ele>632.95</ele>
+<time>2022-03-26T11:22:38.000Z</time>
+</trkpt>
+<trkpt lat="40.1357525" lon="-5.8655915">
+<ele>634.45</ele>
+<time>2022-03-26T11:22:56.000Z</time>
+</trkpt>
+<trkpt lat="40.1357927" lon="-5.8653537">
+<ele>635.45</ele>
+<time>2022-03-26T11:23:20.000Z</time>
+</trkpt>
+<trkpt lat="40.1358470" lon="-5.8651185">
+<ele>638.73</ele>
+<time>2022-03-26T11:23:39.000Z</time>
+</trkpt>
+<trkpt lat="40.1358121" lon="-5.8648810">
+<ele>635.42</ele>
+<time>2022-03-26T11:24:13.000Z</time>
+</trkpt>
+<trkpt lat="40.1356290" lon="-5.8649234">
+<ele>633.98</ele>
+<time>2022-03-26T11:24:46.000Z</time>
+</trkpt>
+<trkpt lat="40.1354644" lon="-5.8650360">
+<ele>639.00</ele>
+<time>2022-03-26T11:25:17.000Z</time>
+</trkpt>
+<trkpt lat="40.1353162" lon="-5.8651737">
+<ele>646.38</ele>
+<time>2022-03-26T11:25:41.000Z</time>
+</trkpt>
+<trkpt lat="40.1353610" lon="-5.8649274">
+<ele>647.88</ele>
+<time>2022-03-26T11:26:20.000Z</time>
+</trkpt>
+<trkpt lat="40.1354681" lon="-5.8647323">
+<ele>648.42</ele>
+<time>2022-03-26T11:26:34.000Z</time>
+</trkpt>
+<trkpt lat="40.1355539" lon="-5.8645153">
+<ele>651.66</ele>
+<time>2022-03-26T11:26:49.000Z</time>
+</trkpt>
+<trkpt lat="40.1356348" lon="-5.8643018">
+<ele>653.45</ele>
+<time>2022-03-26T11:27:05.000Z</time>
+</trkpt>
+<trkpt lat="40.1356385" lon="-5.8640633">
+<ele>650.41</ele>
+<time>2022-03-26T11:27:23.000Z</time>
+</trkpt>
+<trkpt lat="40.1355965" lon="-5.8638246">
+<ele>655.73</ele>
+<time>2022-03-26T11:27:44.000Z</time>
+</trkpt>
+<trkpt lat="40.1356394" lon="-5.8635930">
+<ele>658.88</ele>
+<time>2022-03-26T11:28:03.000Z</time>
+</trkpt>
+<trkpt lat="40.1356472" lon="-5.8633490">
+<ele>659.19</ele>
+<time>2022-03-26T11:28:45.000Z</time>
+</trkpt>
+<trkpt lat="40.1356880" lon="-5.8631136">
+<ele>666.04</ele>
+<time>2022-03-26T11:29:09.000Z</time>
+</trkpt>
+<trkpt lat="40.1356875" lon="-5.8628767">
+<ele>664.84</ele>
+<time>2022-03-26T11:29:35.000Z</time>
+</trkpt>
+<trkpt lat="40.1356378" lon="-5.8626440">
+<ele>661.18</ele>
+<time>2022-03-26T11:34:52.000Z</time>
+</trkpt>
+<trkpt lat="40.1357585" lon="-5.8628250">
+<ele>661.89</ele>
+<time>2022-03-26T11:41:27.000Z</time>
+</trkpt>
+<trkpt lat="40.1357877" lon="-5.8630579">
+<ele>661.61</ele>
+<time>2022-03-26T11:41:49.000Z</time>
+</trkpt>
+<trkpt lat="40.1357572" lon="-5.8633021">
+<ele>660.51</ele>
+<time>2022-03-26T11:42:05.000Z</time>
+</trkpt>
+<trkpt lat="40.1357018" lon="-5.8635260">
+<ele>662.04</ele>
+<time>2022-03-26T11:42:28.000Z</time>
+</trkpt>
+<trkpt lat="40.1356609" lon="-5.8637556">
+<ele>658.11</ele>
+<time>2022-03-26T11:42:50.000Z</time>
+</trkpt>
+<trkpt lat="40.1357206" lon="-5.8639832">
+<ele>650.48</ele>
+<time>2022-03-26T11:43:10.000Z</time>
+</trkpt>
+<trkpt lat="40.1357411" lon="-5.8642265">
+<ele>649.26</ele>
+<time>2022-03-26T11:43:28.000Z</time>
+</trkpt>
+<trkpt lat="40.1356459" lon="-5.8644477">
+<ele>647.27</ele>
+<time>2022-03-26T11:43:43.000Z</time>
+</trkpt>
+<trkpt lat="40.1355724" lon="-5.8646657">
+<ele>646.67</ele>
+<time>2022-03-26T11:43:58.000Z</time>
+</trkpt>
+<trkpt lat="40.1354579" lon="-5.8648662">
+<ele>640.55</ele>
+<time>2022-03-26T11:44:14.000Z</time>
+</trkpt>
+<trkpt lat="40.1353807" lon="-5.8650948">
+<ele>642.14</ele>
+<time>2022-03-26T11:44:31.000Z</time>
+</trkpt>
+<trkpt lat="40.1355318" lon="-5.8649622">
+<ele>648.67</ele>
+<time>2022-03-26T11:44:52.000Z</time>
+</trkpt>
+<trkpt lat="40.1356931" lon="-5.8648466">
+<ele>645.04</ele>
+<time>2022-03-26T11:45:13.000Z</time>
+</trkpt>
+<trkpt lat="40.1358482" lon="-5.8649708">
+<ele>637.80</ele>
+<time>2022-03-26T11:45:34.000Z</time>
+</trkpt>
+<trkpt lat="40.1358197" lon="-5.8652110">
+<ele>633.59</ele>
+<time>2022-03-26T11:45:51.000Z</time>
+</trkpt>
+<trkpt lat="40.1357680" lon="-5.8654423">
+<ele>630.37</ele>
+<time>2022-03-26T11:46:08.000Z</time>
+</trkpt>
+<trkpt lat="40.1356882" lon="-5.8656534">
+<ele>629.94</ele>
+<time>2022-03-26T11:46:26.000Z</time>
+</trkpt>
+<trkpt lat="40.1355693" lon="-5.8658427">
+<ele>626.52</ele>
+<time>2022-03-26T11:46:45.000Z</time>
+</trkpt>
+<trkpt lat="40.1354738" lon="-5.8660500">
+<ele>626.83</ele>
+<time>2022-03-26T11:47:03.000Z</time>
+</trkpt>
+<trkpt lat="40.1354557" lon="-5.8662846">
+<ele>627.59</ele>
+<time>2022-03-26T11:47:21.000Z</time>
+</trkpt>
+<trkpt lat="40.1356353" lon="-5.8662125">
+<ele>627.77</ele>
+<time>2022-03-26T11:47:56.000Z</time>
+</trkpt>
+<trkpt lat="40.1358152" lon="-5.8661822">
+<ele>634.56</ele>
+<time>2022-03-26T11:48:19.000Z</time>
+</trkpt>
+<trkpt lat="40.1358219" lon="-5.8664177">
+<ele>622.43</ele>
+<time>2022-03-26T11:48:58.000Z</time>
+</trkpt>
+<trkpt lat="40.1358173" lon="-5.8666544">
+<ele>611.31</ele>
+<time>2022-03-26T11:49:19.000Z</time>
+</trkpt>
+<trkpt lat="40.1357485" lon="-5.8668749">
+<ele>606.90</ele>
+<time>2022-03-26T11:49:38.000Z</time>
+</trkpt>
+<trkpt lat="40.1356749" lon="-5.8670996">
+<ele>601.83</ele>
+<time>2022-03-26T11:49:57.000Z</time>
+</trkpt>
+<trkpt lat="40.1356294" lon="-5.8673317">
+<ele>598.39</ele>
+<time>2022-03-26T11:50:16.000Z</time>
+</trkpt>
+<trkpt lat="40.1355595" lon="-5.8675510">
+<ele>595.73</ele>
+<time>2022-03-26T11:50:35.000Z</time>
+</trkpt>
+<trkpt lat="40.1355015" lon="-5.8677855">
+<ele>595.73</ele>
+<time>2022-03-26T11:50:53.000Z</time>
+</trkpt>
+<trkpt lat="40.1354856" lon="-5.8680295">
+<ele>598.82</ele>
+<time>2022-03-26T11:51:09.000Z</time>
+</trkpt>
+<trkpt lat="40.1355236" lon="-5.8682668">
+<ele>600.18</ele>
+<time>2022-03-26T11:51:27.000Z</time>
+</trkpt>
+<trkpt lat="40.1355528" lon="-5.8685017">
+<ele>600.38</ele>
+<time>2022-03-26T11:51:42.000Z</time>
+</trkpt>
+<trkpt lat="40.1355141" lon="-5.8687405">
+<ele>594.92</ele>
+<time>2022-03-26T11:51:57.000Z</time>
+</trkpt>
+<trkpt lat="40.1354529" lon="-5.8689686">
+<ele>592.89</ele>
+<time>2022-03-26T11:52:12.000Z</time>
+</trkpt>
+<trkpt lat="40.1353273" lon="-5.8691462">
+<ele>591.03</ele>
+<time>2022-03-26T11:52:28.000Z</time>
+</trkpt>
+<trkpt lat="40.1352604" lon="-5.8693785">
+<ele>592.12</ele>
+<time>2022-03-26T11:52:42.000Z</time>
+</trkpt>
+<trkpt lat="40.1351559" lon="-5.8695844">
+<ele>590.27</ele>
+<time>2022-03-26T11:52:58.000Z</time>
+</trkpt>
+<trkpt lat="40.1350427" lon="-5.8697704">
+<ele>591.89</ele>
+<time>2022-03-26T11:53:13.000Z</time>
+</trkpt>
+<trkpt lat="40.1349402" lon="-5.8699769">
+<ele>592.67</ele>
+<time>2022-03-26T11:53:33.000Z</time>
+</trkpt>
+<trkpt lat="40.1347927" lon="-5.8701173">
+<ele>589.07</ele>
+<time>2022-03-26T11:53:49.000Z</time>
+</trkpt>
+<trkpt lat="40.1346485" lon="-5.8702776">
+<ele>589.58</ele>
+<time>2022-03-26T11:54:04.000Z</time>
+</trkpt>
+<trkpt lat="40.1345116" lon="-5.8704437">
+<ele>592.41</ele>
+<time>2022-03-26T11:54:20.000Z</time>
+</trkpt>
+<trkpt lat="40.1344765" lon="-5.8706772">
+<ele>593.42</ele>
+<time>2022-03-26T11:54:51.000Z</time>
+</trkpt>
+<trkpt lat="40.1343595" lon="-5.8708674">
+<ele>594.27</ele>
+<time>2022-03-26T11:55:26.000Z</time>
+</trkpt>
+<trkpt lat="40.1342344" lon="-5.8710509">
+<ele>595.03</ele>
+<time>2022-03-26T11:56:03.000Z</time>
+</trkpt>
+<trkpt lat="40.1341413" lon="-5.8712564">
+<ele>591.82</ele>
+<time>2022-03-26T11:56:37.000Z</time>
+</trkpt>
+<trkpt lat="40.1342731" lon="-5.8714227">
+<ele>592.20</ele>
+<time>2022-03-26T11:56:54.000Z</time>
+</trkpt>
+<trkpt lat="40.1343421" lon="-5.8716492">
+<ele>590.75</ele>
+<time>2022-03-26T11:57:12.000Z</time>
+</trkpt>
+<trkpt lat="40.1343613" lon="-5.8718918">
+<ele>585.20</ele>
+<time>2022-03-26T11:57:30.000Z</time>
+</trkpt>
+<trkpt lat="40.1343409" lon="-5.8721389">
+<ele>585.51</ele>
+<time>2022-03-26T11:57:47.000Z</time>
+</trkpt>
+<trkpt lat="40.1343402" lon="-5.8723837">
+<ele>584.95</ele>
+<time>2022-03-26T11:58:02.000Z</time>
+</trkpt>
+<trkpt lat="40.1344155" lon="-5.8726074">
+<ele>583.22</ele>
+<time>2022-03-26T11:58:18.000Z</time>
+</trkpt>
+<trkpt lat="40.1345188" lon="-5.8728023">
+<ele>587.22</ele>
+<time>2022-03-26T11:58:34.000Z</time>
+</trkpt>
+<trkpt lat="40.1345804" lon="-5.8730333">
+<ele>588.21</ele>
+<time>2022-03-26T11:58:52.000Z</time>
+</trkpt>
+<trkpt lat="40.1345981" lon="-5.8732742">
+<ele>587.29</ele>
+<time>2022-03-26T11:59:08.000Z</time>
+</trkpt>
+<trkpt lat="40.1345918" lon="-5.8735162">
+<ele>592.24</ele>
+<time>2022-03-26T11:59:44.000Z</time>
+</trkpt>
+<trkpt lat="40.1346298" lon="-5.8732807">
+<ele>593.36</ele>
+<time>2022-03-26T12:03:18.000Z</time>
+</trkpt>
+<trkpt lat="40.1346757" lon="-5.8730516">
+<ele>589.61</ele>
+<time>2022-03-26T12:03:34.000Z</time>
+</trkpt>
+<trkpt lat="40.1346284" lon="-5.8728240">
+<ele>584.07</ele>
+<time>2022-03-26T12:03:51.000Z</time>
+</trkpt>
+<trkpt lat="40.1345784" lon="-5.8725929">
+<ele>587.87</ele>
+<time>2022-03-26T12:04:07.000Z</time>
+</trkpt>
+<trkpt lat="40.1344613" lon="-5.8723984">
+<ele>584.50</ele>
+<time>2022-03-26T12:04:23.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

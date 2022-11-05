@@ -123,7 +123,7 @@ def _update_tracks(name, date, category, city, trip, participants, photos, post)
     photos = photos and f"'{photos}'" or "NULL"
     post = post and f"'{post}'" or "NULL"
 
-    the_command = f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
+    _run(f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
         WITH collected_road as (SELECT ST_CollectionExtract( ST_Collect( ARRAY (select wkb_geometry from tracks)), 2) as whole_road)
         INSERT INTO myroutes(name, date, geom, category, trip, start_point, distance, city, participants, photos, post)
         VALUES(
@@ -140,8 +140,7 @@ def _update_tracks(name, date, category, city, trip, participants, photos, post)
             {post or "NULL"}
         );
         "
-    """
-    _run(the_command)
+    """)
 
 
 def _update_extras():
@@ -164,8 +163,7 @@ def _truncate_tables():
 
 
 def _run(sql_command: str) -> None:
-    # run(sql_command, shell=True, stdout=DEVNULL, stderr=STDOUT)
-    run(sql_command, shell=True)
+    run(sql_command, shell=True, stdout=DEVNULL, stderr=STDOUT)
 
 
 if __name__ == '__main__':
