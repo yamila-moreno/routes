@@ -63,4 +63,46 @@ $(document).ready(function() {
         }
       });
     });
+
+
+    map.on('loaded', function() {
+      getRoutes('http://localhost:3000/rpc/get_routes', {
+        "minx": map.getBounds().getWest(),
+        "miny": map.getBounds().getSouth(),
+        "maxx": map.getBounds().getEast(),
+        "maxy": map.getBounds().getNorth()
+      }).then(data => {
+        for (let i=0; i < data.length; i++ ) {
+          var trackroute = data[i];
+
+          L.geoJSON(trackroute.geom, {
+            style: function (feature) {
+              return { color: categories[trackroute.category].color };
+            }
+          }).addTo(map);
+
+          var trackColor = categories[trackroute.category].color;
+          var trackIcon = L.AwesomeMarkers.icon({
+            "icon": "md-" + categories[trackroute.category].icon,
+            "prefix": "ion",
+            "markerColor": trackColor,
+            "iconColor": "white",
+          });
+
+          var coords = trackroute.start_point.coordinates.reverse();
+          var popupContent = "<i class='icon ion-md-" + categories[trackroute.category].icon + "'> <strong>" + trackroute.name + "</strong>";
+          popupContent = popupContent + "<br/>" + trackroute.date;
+          popupContent = popupContent + " " + trackroute.distance + " km";
+          if (trackroute.post) {
+            popupContent = popupContent + " - <a href='" + trackroute.post + "' target='_new'>POST</a>";
+          }
+          if(trackroute.photos) {
+            popupContent = popupContent + " - <a href='" + trackroute.photos + "' target='_new'>FOTOS</a>";
+          }
+          L.marker(coords, {
+            "icon": trackIcon
+          }).bindPopup(popupContent).addTo(map);
+        }
+      });
+    });
 });
