@@ -30,11 +30,11 @@ def add_new_route(route_id: str) -> None:
             category=route['cat'],
             city=route.get('city'),
             trip=route.get('trip'),
-            participants=route.get('participants', 'Tontako Team'),
+            participants=route.get('participants'),
             photos=route.get('photos'),
             post=route.get('post')
         )
-        logger.info(f"Uploaded {route_id}")
+        logger.info(f"Uploaded {route['file_name']}")
 
 
 
@@ -52,31 +52,23 @@ def batch_load() -> None:
                 category=route['cat'],
                 city=route.get('city'),
                 trip=route.get('trip'),
-                participants=route.get('participants', 'Tontako Team'),
+                participants=route.get('participants'),
                 photos=route.get('photos'),
                 post=route.get('post')
             )
-            logger.info(f"Uploaded {route_id}")
+            logger.info(f"Uploaded {route['file_name']}")
 
     logger.info(f"Uploaded {total_routes} routes")
 
 
-def _process_gpx(
-    file_name: str,
-    category: str,
-    city: str = '',
-    trip: str = '',
-    participants: str = '',
-    photos: str = '',
-    post: str = ''
-) -> None:
+def _process_gpx(file_name, category, city=None, trip=None, participants='Tontako Team', photos=None, post=None):
     # 1. load gpx in `tracks` table
     _load_gpx(file_name)
 
     # 2. extract some metadata from gpx
     xml_info = parse(str(file_name))
     name = _get_name(xml_info)
-    date = _get_date(xml_info)
+    date = _get_date(file_name)
 
     # 3. copy data from `tracks` (wkb_geometry) to `myroutes` with the rest of the metadata
     _update_tracks(
@@ -111,18 +103,8 @@ def _get_name(xml_info):
                     pass
 
 
-def _get_date(xml_info):
-        try:
-            metadata = xml_info.firstChild.getElementsByTagName("metadata")[0]
-            date = metadata.getElementsByTagName("time")[0].firstChild.nodeValue
-            return date
-        except:
-            for trk in xml_info.getElementsByTagName("trk"):
-                try:
-                    date = trk.getElementsByTagName("trkseg")[0].getElementsByTagName("trkpt")[0].getElementsByTagName("time")[0].firstChild.nodeValue
-                    return date
-                except:
-                    pass
+def _get_date(file_name):
+    return file_name[file_name.rindex('/')+1:file_name.index('_')]
 
 
 def _load_gpx(ogr_file):
@@ -135,19 +117,15 @@ def _load_gpx(ogr_file):
    """)
 
 
-def _update_tracks(name, date, category, city=None, trip=None, participants='Tontako Team', photos=None, post=None):
-    _run(f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
-        WITH collected_road as (
-            SELECT ST_CollectionExtract(
-                ST_Collect(
-                    ARRAY (select wkb_geometry from tracks)
-                ),
-                2
-            ) as whole_road
-        )
-        INSERT INTO myroutes(
-            name, date, geom, category, trip, start_point, distance, city, participants, photos, post
-        )
+def _update_tracks(name, date, category, city, trip, participants, photos, post):
+    trip = trip and f"'{trip}'" or "NULL"
+    city = city and f"'{city}'" or "NULL"
+    photos = photos and f"'{photos}'" or "NULL"
+    post = post and f"'{post}'" or "NULL"
+
+    the_command = f"""psql -U {DB_USER} -h localhost -p {DB_PORT} {DB_NAME} -c "
+        WITH collected_road as (SELECT ST_CollectionExtract( ST_Collect( ARRAY (select wkb_geometry from tracks)), 2) as whole_road)
+        INSERT INTO myroutes(name, date, geom, category, trip, start_point, distance, city, participants, photos, post)
         VALUES(
             '{name}',
             '{date}',
@@ -162,7 +140,8 @@ def _update_tracks(name, date, category, city=None, trip=None, participants='Ton
             {post or "NULL"}
         );
         "
-    """)
+    """
+    _run(the_command)
 
 
 def _update_extras():
@@ -185,7 +164,8 @@ def _truncate_tables():
 
 
 def _run(sql_command: str) -> None:
-    run(sql_command, shell=True, stdout=DEVNULL, stderr=STDOUT)
+    # run(sql_command, shell=True, stdout=DEVNULL, stderr=STDOUT)
+    run(sql_command, shell=True)
 
 
 if __name__ == '__main__':
