@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="OruxMaps v.10.5.0 GP" version="1.1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- owner: 4b56444514b1e6 -->
+<metadata>
+<name>Waiau Falls</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2024-03-08T04:29:11.168Z</time><bounds maxlat="-36.7602137" maxlon="175.5473191" minlat="-36.8322897" minlon="175.4955313"/>
+</metadata>
+<wpt lat="-36.8320913" lon="175.5469291">
+<ele>123.50</ele>
+<time>2024-03-08T04:29:12.123Z</time>
+<name>Waiau Falls</name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="-36.8321554" lon="175.5469059">
+<ele>43.21</ele>
+<time>2024-03-08T05:05:53.337Z</time>
+<name><![CDATA[]]></name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Tipo: Indefinido<br/>Hora Inicio: 17:29 8 mar 2024<br/>Hora Fin: 18:05 8 mar 2024<br/>Distancia: 10,9km (00:36)<br/>Tiempo en movimiento: 00:25<br/>Velocidad media: 17,84 km/h<br/>Vel. en Mov.: 26,08 km/h<br/>Velocidad Máxima: 63,61 km/h<br/>Altura Mínima: 2 m<br/>Altura Máxima: 116 m<br/>Velocidad Ascenso: 452,9 m/h<br/>Velocidad descenso: 521,6 m/h<br/>Ganancia elevación: 28 m<br/>Pérdida elevación: 141 m<br/>Tiempo Ascenso: 00:03<br/>Tiempo bajando: 00:16<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[Falls (needs clean)]]></name>
+<desc><![CDATA[<p>Tipo: Indefinido<br/>Hora Inicio: 17:29 8 mar 2024<br/>Hora Fin: 18:05 8 mar 2024<br/>Distancia: 10,9 km (00:36)<br/>Tiempo en movimiento: 00:25<br/>Velocidad media: 17,84 km/h<br/>Vel. en Mov.: 26,08 km/h<br/>Velocidad Máxima: 63,61 km/h<br/>Altura Mínima: 2 m<br/>Altura Máxima: 116 m<br/>Velocidad Ascenso: 452,9 m/h<br/>Velocidad descenso: 521,6 m/h<br/>Ganancia elevación: 28 m<br/>Pérdida elevación: 141 m<br/>Tiempo Ascenso: 00:03<br/>Tiempo bajando: 00:16<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="-36.8320913" lon="175.5469291">
+<ele>123.50</ele>
+<time>2024-03-08T04:29:12.000Z</time>
+</trkpt>
+<trkpt lat="-36.8321411" lon="175.5471472">
+<ele>120.39</ele>
+<time>2024-03-08T04:30:19.000Z</time>
+</trkpt>
+<trkpt lat="-36.8322897" lon="175.5472741">
+<ele>106.97</ele>
+<time>2024-03-08T04:36:19.000Z</time>
+</trkpt>
+<trkpt lat="-36.8321094" lon="175.5472653">
+<ele>108.28</ele>
+<time>2024-03-08T04:36:59.000Z</time>
+</trkpt>
+<trkpt lat="-36.8320227" lon="175.5470617">
+<ele>106.84</ele>
+<time>2024-03-08T04:37:30.000Z</time>
+</trkpt>
+<trkpt lat="-36.8321554" lon="175.5469059">
+<ele>120.37</ele>
+<time>2024-03-08T04:38:27.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
