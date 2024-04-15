@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="OruxMaps v.10.5.0 GP" version="1.1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:om="http://www.oruxmaps.com/oruxmapsextensions/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- owner: 4b56444514b1e6 -->
+<metadata>
+<name>Thunder Creek Falls</name>
+<link href="https://www.oruxmaps.com">
+<text>OruxMaps GP</text>
+</link>
+<time>2024-03-19T23:37:07.200Z</time><bounds maxlat="-44.0374192" maxlon="169.3669882" minlat="-44.0377350" minlon="169.3657478"/>
+</metadata>
+<wpt lat="-44.0374192" lon="169.3669882">
+<ele>149.52</ele>
+<time>2024-03-19T23:37:07.309Z</time>
+<name>Thunder Creek Falls</name>
+<sym>Waypoint</sym>
+<type>Comienzo</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="ICON" subtype="0">38</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<wpt lat="-44.0374723" lon="169.3667621">
+<ele>138.96</ele>
+<time>2024-03-19T23:53:15.502Z</time>
+<name><![CDATA[]]></name>
+<desc><![CDATA[<p><br /><h3>Nombre: Segmento: 1</h3><br />Tipo: Indefinido<br/>Hora Inicio: 12:37 20 mar 2024<br/>Hora Fin: 12:52 20 mar 2024<br/>Distancia: 0,2km (00:14)<br/>Tiempo en movimiento: 00:07<br/>Velocidad media: 0,91 km/h<br/>Vel. en Mov.: 1,71 km/h<br/>Velocidad Máxima: 4,86 km/h<br/>Altura Mínima: 134 m<br/>Altura Máxima: 134 m<br/>Ganancia elevación: 0 m<br/>Pérdida elevación: 11 m<br/>Tiempo Ascenso: 00:00<br/>Tiempo bajando: 00:01<br/></p>]]></desc>
+<sym>Waypoint</sym>
+<type>Final</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="ICON" subtype="0">15</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+</wpt>
+<trk>
+<name><![CDATA[Thunder Creek Falls]]></name>
+<desc><![CDATA[<p>Tipo: Indefinido<br/>Hora Inicio: 0:37 20 mar 2024<br/>Hora Fin: 0:52 20 mar 2024<br/>Distancia: 0,2 km (00:14)<br/>Tiempo en movimiento: 00:07<br/>Velocidad media: 0,91 km/h<br/>Vel. en Mov.: 1,71 km/h<br/>Velocidad Máxima: 4,86 km/h<br/>Altura Mínima: 134 m<br/>Altura Máxima: 134 m<br/>Velocidad descenso: 549,9 m/h<br/>Pérdida elevación: 11 m<br/>Tiempo bajando: 00:01<br/></p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></desc>
+<type>Indefinido</type>
+<extensions>
+<om:oruxmapsextensions>
+<om:ext type="TYPE" subtype="0">0</om:ext>
+<om:ext type="DIFFICULTY">0</om:ext>
+</om:oruxmapsextensions>
+</extensions>
+<trkseg>
+<trkpt lat="-44.0374192" lon="169.3669882">
+<ele>149.52</ele>
+<time>2024-03-19T23:37:09.000Z</time>
+</trkpt>
+<trkpt lat="-44.0374436" lon="169.3667342">
+<ele>144.41</ele>
+<time>2024-03-19T23:37:26.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375316" lon="169.3665089">
+<ele>140.72</ele>
+<time>2024-03-19T23:37:45.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375387" lon="169.3662545">
+<ele>137.54</ele>
+<time>2024-03-19T23:38:04.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375137" lon="169.3659985">
+<ele>131.72</ele>
+<time>2024-03-19T23:38:27.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375451" lon="169.3657478">
+<ele>130.14</ele>
+<time>2024-03-19T23:38:49.000Z</time>
+</trkpt>
+<trkpt lat="-44.0377350" lon="169.3657606">
+<ele>132.13</ele>
+<time>2024-03-19T23:39:22.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375538" lon="169.3657645">
+<ele>139.37</ele>
+<time>2024-03-19T23:50:52.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375660" lon="169.3660168">
+<ele>132.91</ele>
+<time>2024-03-19T23:51:11.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375904" lon="169.3662762">
+<ele>132.99</ele>
+<time>2024-03-19T23:51:31.000Z</time>
+</trkpt>
+<trkpt lat="-44.0375660" lon="169.3665443">
+<ele>131.19</ele>
+<time>2024-03-19T23:51:47.000Z</time>
+</trkpt>
+<trkpt lat="-44.0374723" lon="169.3667621">
+<ele>138.96</ele>
+<time>2024-03-19T23:52:04.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
