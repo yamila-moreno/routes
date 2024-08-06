@@ -1,5 +1,4 @@
 import csv
-import json
 import logging
 import os
 import pathlib
@@ -45,7 +44,7 @@ def batch_load() -> None:
 
     # load new data
     with open(GPX_FILE, mode='r') as routes_metadata:
-        data = json.load(routes_metadata)
+        data = toml.load(routes_metadata)
         total_routes = len(data)
         for route_id, route in data.items():
             _process_gpx(
