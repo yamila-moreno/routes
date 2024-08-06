@@ -1,9 +1,10 @@
 import csv
 import json
 import logging
-import pathlib
 import os
+import pathlib
 import sys
+import toml
 from subprocess import run, DEVNULL, STDOUT
 from xml.dom.minidom import parse
 
@@ -18,12 +19,12 @@ DB_NAME = os.getenv("PG_DB_NAME")
 DB_USER = os.getenv("PG_USER")
 DB_PORT = os.getenv("PG_HOST_PORT")
 DB_PASSWORD = os.getenv("PGPASSWORD")
-GPX_FILE = 'routes.json'
+GPX_FILE = 'routes.toml'
 
 
 def add_new_route(route_id: str) -> None:
     with open(GPX_FILE, mode='r') as routes_metadata:
-        data = json.load(routes_metadata)
+        data = toml.load(routes_metadata)
         route = data[route_id]
         _process_gpx(
             file_name=f"../gpx/{route['file_name']}",
